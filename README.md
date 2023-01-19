@@ -85,7 +85,7 @@ The wireframing software [Balsamiq Wireframes](https://balsamiq.com/wireframes/)
  
 ### Desktop
 
-![Desktop Wireframe](documentation/desktopwireframe.png)
+![Desktop Wireframe](documentation/desktoplayout.png)
 *Desktop Wireframe layout*
 
 ## Features
