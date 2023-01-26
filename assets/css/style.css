@@ -1,8 +1,40 @@
 @import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;500&display=swap');
 
 .bg {
-    background-color: #e8fccf;
+    background-color: #e8fcc1;
 }
+
 /* ------------Header*/
+#logo:hover {
+    property: none;
+}
+
+h2 {
+    font-family: "Barlow Condensed";
+    font-size: 4em;
+    padding: 10px;
+    margin: 15px;
+}
+
+h2:hover {
+    cursor: pointer;   
+}
+
+.navlinks {
+    align-items: top;
+    justify-content: right;
+}
+
+.nav- {
+    font-family: "Barlow Condensed";
+    font-size: 2em;
+    display: inline-flex;
+    margin; 5px, 5px, 5px, 5px;
+    padding: 0.5em;
+    margin-right: auto;
+    margin-left: auto;
+}
 
 /* ------------Body*/
+
+/*-------------Footer*/

@@ -1,14 +1,49 @@
 # Hearten Horticulture – Gardening Business Website
+![GitHub last commit](https://img.shields.io/github/last-commit/rhysbobbett/heartenhorticulture?color=red)
+![GitHub contributors](https://img.shields.io/github/contributors/rhysbobbett/heartenhorticulture?color=green)
+![GitHub language count](https://img.shields.io/github/languages/count/rhysbobbett/heartenhorticulture?color=yellow)
+![GitHub top language](https://img.shields.io/github/languages/top/rhysbobbett/heartenhorticulture?color=orange)
 
-The site is designed for people to learn more about Hearten Horticulture Ltd. 
-It features a simple opening page with a navbar that includes a button to go straight to a mailing list signup form. The about page information shows the company aims and how they do it, providing marketing information. There is a contact page to submit questions or enquiries.
-This website was designed to be simple as the target audience is primarily an older generation and user functionality is a must. The aim is to get the user to register their email address for the newsletter if the audience is international, and enquire for business projects if they are within the local area. There should be assurance that users will interact with the page in some way be it through the question form or the signup.
+This responsive site is designed for people to learn more about Hearten Horticulture Ltd and can be viewed on various devices.
+
+[View Hearten Horticulture on Github Pages](https://rhysbobbett.github.io/heartenhorticulture/)
+
+
+
+
+### About the site
+It features a simple opening page with a navbar that includes a button to go straight to a mailing list/contact us form. The about page information shows the company aims and how they do it, providing some brief marketing information. The services and portfolio page displays the works offered by the business and examples of previous projects carried out. There is a contact page to submit questions or enquiries.
+This website was designed to be simple as the target audience is primarily elderly people and those unable to care for their gardens, so user functionality is a must. The aim is to get the user to register their email address for the newsletter and contact us for services to be carried out if they live in the local area. There should be assurance that users will interact with the page in some way be it through the question form or viewing the portfolio.
+
+## CONTENTS
+* [Website Goals](#Website-Goals)
+    * [Business Goals](#Business-Goals)
+    * [Customer Goals](#Customer-Goals)
+* [User Experience](#user-experience)
+    * [Potential Customers](#potential-customers)
+    * [User Stories](#user-stories)
+* [Design](#design)
+    * [Colour Scheme](#colour-scheme)
+    * [Font Family](#font-family)
+* [Wireframes](#wireframes)
+    * [Mobile Layout](#mobile)
+    * [Tablet Layout](#tablet)
+    * [Desktop Layout](#desktop)
+* [Features of pages](#features)
+    * [Common Features](#common-features-on-all-pages)
+    * [Homepage](#home-page)
+    * [About Us](#about-us)
+    * [Services/Portfolio](#services-and-Portfolio)
+    * [Contact Us](#contact-us-page)
+* [Languages and Resources Utilised](#languages-and-resources)    
+
+## Website Goals
 
 ### Business Goals
 
--   Ease of use for older people, easy to navigate.
--   An easy sign-up process for anyone to register for the newsletter/enquiries.
--   Interesting enough to click through all the page.
+-   Ease of use for elderly people, easy to navigate.
+-   An easy contact process for anyone to use, and to register for a mailing list.
+-   Interesting enough to click through all the webpages.
 -   Promote business products and services through locality checking.
 -   Use the page to advertise products as a web-shop or through referral links.
 
@@ -16,20 +51,17 @@ This website was designed to be simple as the target audience is primarily an ol
 
 -   Find a gardening service suitable for their needs.
 -   To be able to find any information about gardening or plants.
--   To see benefits to signing up to the newsletter or receiving local services.
+-   To see benefits to signing up to the newsletter or receiving the local services.
 
 ## User Experience
 
 ### Potential Customers
 
 -   Mainly adults interested in gardening but it should be suitable for all ages.
--   Possible to place paid advertisements within the newsletter or product referrals.
--   Clients wishing for advice rather than in-person services.
--   This website provides users with value by providing:
--   Valid and accurate knowledge.
--   Straight forward formatting for users of all ages.
--   A scaling library of articles to keep users returning.
--   Up to date news and articles to keep users interested.
+-   Possible to place paid advertisements or product referrals.
+-   Clients contacting for advice rather than in-person services.
+-   Elderly clients should find the website easy to use, with high visibility for links and navigation.
+-   Establishments looking to run gardening-based workshops.
 
 ### User Stories
 
@@ -73,7 +105,7 @@ All images used are gardening or plant related. The images will be all consisten
 
 The wireframing software [Balsamiq Wireframes](https://balsamiq.com/wireframes/) has been used to produce wireframe drawings and to preview the site’s layout.
 
-### Mobile layout
+### Mobile
 
 ![Mobile Wireframe](documentation/mobilewireframe.png)
 *Mobile Wireframe layout*
@@ -103,6 +135,14 @@ The footer will contain social media links for facebook, twitter, Instagram and 
 The main page is simply a hero image with a brief text explaining what the site is.
 The links on the navigation bar are big enough that they can be noticed easily by those with visual impairments. 
 The homepage establishes the feel of the site and should be very easy to navigate.
+
+### About Us
+
+This page will feature text explaining the business ethos, alongside images of personnel with brief description of their related experiences. The page will also feature a 'Contact us' button below this information to quickly bring users to the 'Contact Us' page.
+
+### Services and Portfolio
+
+This page will feature a table of services offered that will scroll to a media gallery of images showing previous works carried out.
 
 ### Contact us page
 
