@@ -163,5 +163,24 @@ The about us page will act as a key personnel page within the business, alongsid
 - [Github](https://github.com/) – Repository for the site’s code.
 - [Gitpod](https://www.gitpod.io) – IDE used to write the site.
 
+## Testing
+Issue : Upon deployment to Github pages, my logo image was failing to load.
+Solution : This was fixed by changing the URL to navigate from the parent directory.
 
+
+## Deployment
+I deployed the website to Github pages for testing purposes. The site was deployed by following instructions found in the Github docs page.
+I navigated to my site's repository, selected 'Settings', then 'Code and Automation' section, navigated to 'Pages', then 'Source' to select the main branch of the repository, upon clicking 'Save', the repository was deployed.
+
+## Credits
+
+### Content
+* The font 'Barlow Condensed' comes from [Google Fonts](https://fonts.google.com/)
+* Instructions relating to creating a clickable image comes from [w3 Schools](https://www.w3schools.com/), specifically a section of using images in HTML and a subsection called [Images as a link](https://www.w3schools.com/html/html_images.asp)
+* Instructions relating to Github deployment come from Github's docs pages [Github Docs](https://docs.github.com/en)
+* Icons in the footer come from [Font Awesome](https://fontawesome.com/icons)
+
+### Media
+* The main logo was created in Adobe Illustrator by myself 
+* All photographs and images were taken/created by myself.
 
