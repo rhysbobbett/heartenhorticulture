@@ -13,14 +13,20 @@
 </head>
 
 <header class="bg sticky-top">
-    <nav class="nav-links form-inline">
-        <h2 id="logo" onclick="window.location.href='index.html'" class="col-6 text-uppercase">Hearten Horticulture</h2>
-        <nav class="nav-links flex bg-links">
-            <a class="nav-" aria-current="#">Home</a>
-            <a class="nav-" href="about.html">About Us</a>
-            <a class="nav-" href="services.html">Services / Portfolio</a>
-            <a class="nav-" href="contactus.html">Contact Us</a>
+    <div class="site-header-content" id="logo">
+        <a href="index.html" rel="home" class="site-logo" aria-label="Return to front page">
+            <img src="/assets/images/logovector.png" id='myLogo' alt="Hearten Horticulture Logo">
+        </a>
+        <ul id="nav-items" class="nav-items"> 
+            <a class="nav-item" aria-current="#" aria-label="Home">Home</a>
+            <a class="nav-item" href="about.html" aria-label="About us">About Us</a>
+            <a class="nav-item" href="services.html" aria-label="Services and Portfolio">Services / Portfolio</a>
+            <a class="nav-item" href="contactus.html" aria-label="Contact us">Contact Us</a>
+        </ul>
         </nav>
+
+    </div>    
+    
     </div>
 </div>
 </header>
@@ -31,13 +37,15 @@
         <div id="hero-image" class="text-center">HERO IMAGE 1</div>
     </div>
     <br>
-    <div class="col contactbutton class="text-center" >
-        <input type="button" onclick="window.location.href='contactus.html';" value="Contact Us!">
+    <div class="col text-center" >
+        <input class="but" type="button" onclick="window.location.href='contactus.html';" value="Contact Us!">
     </div>
     <br>
+    <div class="container">
         <div id="aboutimage" class="text-center">
             <a href="about.html">ABOUT IMAGE</a>
         </div>
+    </div>
     <br>
         <div id="serviceimage" class="text-center">
             <a href="services.html">SERVICES / PORTFOLIO IMAGE</a>
@@ -46,9 +54,12 @@
 </body>
 <footer class="text-center">
     <div>
-        <a href="https://www.facebook.com" class="smicon" target="_blank" ><i class="fab fa-facebook fa-4x"></i></li>
-        <a href="https://www.twitter.com" class="smicon" target="_blank"><i class="fab fa-twitter-square fa-4x"></i></li>
-        <a href="https://www.youtube.com" class="smicon" target="_blank"><i class="fab fa-youtube-square fa-4x"></i></li>
-        <a href="https://www.instagram.com" class="smicon" target="_blank"><i class="fab fa-instagram fa-4x"></i></li>
+        <a href="https://www.facebook.com" class="smicon" target="_blank" ><i class="fab fa-facebook fa-3x" style="color:#3da35d"></i></li>
+        <a href="https://www.twitter.com" class="smicon" target="_blank"><i class="fab fa-twitter-square fa-3x" style="color:#3da35d"></i></li>
+        <a href="https://www.youtube.com" class="smicon" target="_blank"><i class="fab fa-youtube-square fa-3x" style="color:#3da35d"></i></li>
+        <a href="https://www.instagram.com" class="smicon" target="_blank"><i class="fab fa-instagram fa-3x" style="color:#3da35d"></i></li>
+    </div>
+    <div class="footnotes">
+        <span>Copyright © 2023 Rhys Bobbett</span>
     </div>    
 </footer>
