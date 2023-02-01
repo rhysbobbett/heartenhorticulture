@@ -115,7 +115,7 @@ body {
 }
 
 .background {
-    background: url(https://github.com/rhysbobbett/heartenhorticulture/blob/main/assets/images/DayGarden.png);
+    background: url(./assets/images/DayGarden.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -138,7 +138,7 @@ body {
 /*--------------------about.html*/
 
 .background2 {
-    background: url(https://github.com/rhysbobbett/heartenhorticulture/blob/main/assets/images/DawnGarden.png);
+    background: url(./assets/images/DawnGarden.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: 100vw;
