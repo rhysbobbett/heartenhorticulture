@@ -13,29 +13,21 @@
 </head>
 
 <header class="bg sticky-top">
-    <div class="site-header-content" id="logo">
-        <a href="index.html" rel="home" class="site-logo" aria-label="Return to front page">
+    <div class="navbar-brand nav-logo" id="logo">
+        <a href="index.html" rel="home" class="site-logo" id="myLogo" aria-label="Return to front page">
             <img src="./assets/images/logovector.png" id='myLogo' alt="Hearten Horticulture Logo">
         </a>
-        <ul id="nav-items" class="nav-items"> 
-            <a class="nav-item" aria-current="#" aria-label="Home">Home</a>
-            <a class="nav-item" href="about.html" aria-label="About us">About Us</a>
-            <a class="nav-item" href="services.html" aria-label="Services and Portfolio">Services / Portfolio</a>
-            <a class="nav-item" href="contactus.html" aria-label="Contact us">Contact Us</a>
-        </ul>
-        </nav>
-
-    </div>    
-    
+        <nav class="nav-bar">
+            <ul id="nav-list"> 
+                <a class="nav-item hider" aria-current="#" aria-label="Home">Home</a>
+                <a class="nav-item" href="about.html" aria-label="About us">About Us</a>
+                <a class="nav-item" href="services.html" aria-label="Services and Portfolio">Services / Portfolio</a>
+                <a class="nav-item" href="contactus.html" aria-label="Contact us">Contact Us</a>
+            </ul>
+        </nav>   
     </div>
-</div>
 </header>
-<br>
-
-<body class = "bg">
-    <div class="">
-        <div id="hero-image" class="text-center">HERO IMAGE 1</div>
-    </div>
+    <div class="col background"></div>
     <br>
     <div class="col text-center" >
         <input class="but" type="button" onclick="window.location.href='contactus.html';" value="Contact Us!">
@@ -51,15 +43,17 @@
             <a href="services.html">SERVICES / PORTFOLIO IMAGE</a>
         </div>
     <br>
+    <footer class="text-center">
+        <div>
+            <a href="https://www.facebook.com" class="smicon" target="_blank" ><i class="fab fa-facebook fa-3x" style="color:#3da35d"></i></li>
+            <a href="https://www.twitter.com" class="smicon" target="_blank"><i class="fab fa-twitter-square fa-3x" style="color:#3da35d"></i></li>
+            <a href="https://www.youtube.com" class="smicon" target="_blank"><i class="fab fa-youtube-square fa-3x" style="color:#3da35d"></i></li>
+            <a href="https://www.instagram.com" class="smicon" target="_blank"><i class="fab fa-instagram fa-3x" style="color:#3da35d"></i></li>
+        </div>
+        <div class="footnotes">
+            <span>Copyright © 2023 Rhys Bobbett</span>
+        </div>    
+    </footer>
 </body>
-<footer class="text-center">
-    <div>
-        <a href="https://www.facebook.com" class="smicon" target="_blank" ><i class="fab fa-facebook fa-3x" style="color:#3da35d"></i></li>
-        <a href="https://www.twitter.com" class="smicon" target="_blank"><i class="fab fa-twitter-square fa-3x" style="color:#3da35d"></i></li>
-        <a href="https://www.youtube.com" class="smicon" target="_blank"><i class="fab fa-youtube-square fa-3x" style="color:#3da35d"></i></li>
-        <a href="https://www.instagram.com" class="smicon" target="_blank"><i class="fab fa-instagram fa-3x" style="color:#3da35d"></i></li>
-    </div>
-    <div class="footnotes">
-        <span>Copyright © 2023 Rhys Bobbett</span>
-    </div>    
-</footer>
+
+</html>
