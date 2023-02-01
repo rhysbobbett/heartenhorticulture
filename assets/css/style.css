@@ -116,7 +116,7 @@ body {
 }
 
 .background {
-    background-image: url(assets/images/DayGarden.png), url(/assets/images/DayGarden.png);
+    background-image: url(./assets/images/DayGarden.png), url(/assets/images/DayGarden.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -140,7 +140,7 @@ body {
 /*--------------------about.html*/
 
 .background2 {
-    background: url(assets/images/DawnGarden.png), url(/assets/images/DawnGarden.png);
+    background: url(./assets/images/DawnGarden.png), url(/assets/images/DawnGarden.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: 100vw;
