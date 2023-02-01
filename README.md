@@ -165,7 +165,10 @@ The about us page will act as a key personnel page within the business, alongsid
 
 ## Testing
 Issue : Upon deployment to Github pages, my logo image was failing to load.
-Solution : This was fixed by changing the URL to navigate from the parent directory.
+Solution : This was fixed by changing the URL to navigate from the parent directory. This was solved by reading through the CSS documentation 
+
+Issue : When deploying to Github using the animated image png files in the CSS, the URL again failed to load correctly.
+Solution : leave path as single forward slash instead of a f
 
 
 ## Deployment

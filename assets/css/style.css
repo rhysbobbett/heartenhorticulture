@@ -21,33 +21,29 @@ hider {
 
 .navbar-brand {
     display: flex;
-    justify-content: flex-end;
+    justify-content: flex-start;
     align-items: center;
+    font-size: 100%;
+    min-width: 10em;
+    min-height: 30%;
+    padding: 0, 0, 0, 0;
 }
 
 #myLogo {
-    display: flex;
+    display: inline-block;
+    margin-left: 0;
     margin-right: auto;
+    min-width: 10em;
+    min-height: 6.18em;
     max-height: 40%;
     max-width: 50%;
     height: 50%;
     left: 0px;
     right: 0px;
-    inline: flex;
     animation-name: logo-zoom;
     animation-duration: 5s;
-    animation-fill-mode: forwards;   
-}
-
-#myLogo:hover {
-    display: flex;
-    margin-right: auto;
-    max-height: 50%;
-    max-width: 50%;
-    height: 50%;
-    left: 0px;
-    right: 0px;
-    inline: flex;   
+    animation-fill-mode: forwards; 
+      
 }
 
 @keyframes logo-zoom {
@@ -69,13 +65,18 @@ a:hover {
     font-family: "Barlow Condensed" sans-serif;
     font-size: 2em;
     padding: 0.5em;
+    margin-left: 0;
     cursor: help;
+    
     justify-content: flex-end;
     font-color: #97e072;
+    background-size: contain;
+    display: inline-flex;
 }
 
 .nav-item {
     color: #97e072;
+    margin-left: 0;
 }
 
 .nav-item:hover { 
@@ -115,7 +116,7 @@ body {
 }
 
 .background {
-    background: url(./assets/images/DayGarden.png);
+    background-image: url(assets/images/DayGarden.png), url(/assets/images/DayGarden.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -126,6 +127,7 @@ body {
     animation-fill-mode: forwards;
     background-color: #e8fcc1;
     overflow: hidden;
+    scroll-behavior: smooth;
 }
 
 @keyframes heroimagezoomout {
@@ -138,7 +140,7 @@ body {
 /*--------------------about.html*/
 
 .background2 {
-    background: url(./assets/images/DawnGarden.png);
+    background: url(assets/images/DawnGarden.png), url(/assets/images/DawnGarden.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: 100vw;
@@ -172,7 +174,9 @@ body {
 }
 
 /*-------------Footer*/
-
+footer {
+    background-color: #e8fcc1;
+}
 
 .footnotes {
     color: #134611;
