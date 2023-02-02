@@ -9,33 +9,9 @@ This responsive site is designed for people to learn more about Hearten Horticul
 [View Hearten Horticulture on Github Pages](https://rhysbobbett.github.io/heartenhorticulture/)
 
 
-
-
 ### About the site
 It features a simple opening page with a navbar that includes a button to go straight to a mailing list/contact us form. The about page information shows the company aims and how they do it, providing some brief marketing information. The services and portfolio page displays the works offered by the business and examples of previous projects carried out. There is a contact page to submit questions or enquiries.
 This website was designed to be simple as the target audience is primarily elderly people and those unable to care for their gardens, so user functionality is a must. The aim is to get the user to register their email address for the newsletter and contact us for services to be carried out if they live in the local area. There should be assurance that users will interact with the page in some way be it through the question form or viewing the portfolio.
-
-## CONTENTS
-* [Website Goals](#Website-Goals)
-    * [Business Goals](#Business-Goals)
-    * [Customer Goals](#Customer-Goals)
-* [User Experience](#user-experience)
-    * [Potential Customers](#potential-customers)
-    * [User Stories](#user-stories)
-* [Design](#design)
-    * [Colour Scheme](#colour-scheme)
-    * [Font Family](#font-family)
-* [Wireframes](#wireframes)
-    * [Mobile Layout](#mobile)
-    * [Tablet Layout](#tablet)
-    * [Desktop Layout](#desktop)
-* [Features of pages](#features)
-    * [Common Features](#common-features-on-all-pages)
-    * [Homepage](#home-page)
-    * [About Us](#about-us)
-    * [Services/Portfolio](#services-and-Portfolio)
-    * [Contact Us](#contact-us-page)
-* [Languages and Resources Utilised](#languages-and-resources)    
 
 ## Website Goals
 
