@@ -11,7 +11,8 @@ hider {
     display: none;
     animation: none;
 }
-/* ------------Header*/
+/*Header*/
+
 .sticky-top {
     position: absolute;
     top: 0;
@@ -99,7 +100,7 @@ a:hover {
     0% {
         color: #134611;
         border-radius: 0;
-        background-color:#134611
+        background-color:#134611;
         opacity: 0;
     }
 
@@ -110,13 +111,13 @@ a:hover {
     color: #134611;
 }
 
-/* ----------------Index.html*/
+/*index.html*/
 body {
     overflow-x: hidden
 }
 
 .background {
-    background-image: url(\rhysbobbett\heartenhorticulture\blob\main\assets\images\DayGarden.jpeg), url(/assets/images/DayGarden.jpeg);
+    background-image: url(../images/DayGarden.jpeg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -150,10 +151,10 @@ body {
     align-items: center;
 }
 
-/*--------------------about.html*/
+/*about.html*/
 
 .background2 {
-    background-image: url(./assets/images/DawnGarden.jpeg), url(/assets/images/DawnGarden.jpeg);
+    background-image: url(../images/DawnGarden.jpeg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: 100vw;
