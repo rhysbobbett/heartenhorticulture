@@ -116,7 +116,7 @@ body {
 }
 
 .background {
-    background-image: url(./assets/images/DayGarden.png), url(/assets/images/DayGarden.png);
+    background-image: url(\rhysbobbett\heartenhorticulture\blob\main\assets\images\DayGarden.jpeg), url(/assets/images/DayGarden.jpeg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -137,10 +137,23 @@ body {
         scale(1);}
 }
 
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.aboutimage {
+    display: center;
+    justify-content: space-between;
+    align-items: center;
+}
+
 /*--------------------about.html*/
 
 .background2 {
-    background: url(./assets/images/DawnGarden.png), url(/assets/images/DawnGarden.png);
+    background-image: url(./assets/images/DawnGarden.jpeg), url(/assets/images/DawnGarden.jpeg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: 100vw;
