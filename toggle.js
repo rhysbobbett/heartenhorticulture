@@ -1,5 +1,5 @@
-$().ready(function () {
+$(/assets/style.css).ready(function () {
     $(".navbar-toggler").click(function () {
-      $("#navbarNav").toggleClass("show");
+      $("#navbar").toggleClass("show");
     });
   });
