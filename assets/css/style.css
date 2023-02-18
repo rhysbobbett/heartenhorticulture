@@ -11,8 +11,6 @@
    z-index: 1;
 }
 
-
-
 /* Header/Navbar*/
 nav {
     background-color:#e8fcc1;
@@ -75,7 +73,7 @@ nav {
     border-radius: 100%;
     background-color:#134611;
     }
-    }
+}
     
 .nav-item:active {
     color: #134611;
@@ -180,12 +178,13 @@ nav {
     background-image: url(../images/aboutbanner.jpeg);
     background-position: center;
     background-repeat: no-repeat;
-    background-size: contain;
-    width: auto;
+    background-size: 200vw;
     height: 50vh;
+    position:relative;
+    min-zoom: 50%;
     min-block-size: 50%;
     background-color: #e8fcc1;
-    position: relative;
+    margin: 0px, 0px, 5px, 5px;
     z-index: 1;
 }
 
@@ -193,7 +192,7 @@ nav {
     background-image: url(../images/aboutustext.jpeg);
     background-position: left;
     background-size: 25%;
-    height: 15vh;
+    height: 12vh;
     min-block-size: 5%;
     background-color: #e8fcc1;
     position: relative;
@@ -222,7 +221,6 @@ nav {
     
 }
 
-
 .servicesportfoliobanner > a {
     position: relative;
     top: 0;
@@ -244,6 +242,10 @@ nav {
     background-color: #e8fcc1;
     position: relative;
     z-index: 1;
+}
+
+.servicesimage img{
+    display: block;
 }
 
 .servicestextbox{

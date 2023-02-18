@@ -41,15 +41,25 @@ This website was designed to be simple as the target audience is primarily elder
 
 ### User Stories
 
+## New User:
 -   I want to know what the site is for.
 -   I want to be able to explore everything the site has to offer easily.
 -   I want to see services on offer immediately.
 -   If I have questions, I should be able to get them answered through a contact system.
+
+## Returning User:
 -   I want to come back to the site often to see if there are any new articles.
 -   I want to return to the site for informative references.
 -   I want to see social media from the source before anyone else.
+
+## Other customer scenarios:
 -   I’m a potential customer who wants some testimony before signing up.
 -   I’m a potential customer who wants to know how much these services are and what is available.
+
+## Site Adminstrator:
+-   As a site administrator, the pages should be easily manageable
+-   As a site administrator, the contact system should be able to sort general enquiries into categories to ensure that it reaches the correct knowledge base.
+-   As a site administrator, the code should be signposted and easy to navigate, it should be consistent and accurate, so I can update it when required.
 
 ## Design
 
@@ -127,6 +137,11 @@ Briefly details the sorts of questions that are commonly asked.
 Signup to a mailing list.
 About Us Page
 The about us page will act as a key personnel page within the business, alongside our company aims, ambitions and future ideas.
+
+### Future Features
+-   Using Javascript, it should be possible to make the background images change during both the time of day, or which season we are currently in.
+-   Javascript based timetable to inform customers of the flowers, fruit and vegetables that can be grown on that given day. A feature of this could be      utilise IP data to provide a local weather update through a 3rd party API.
+-   A feature page where the top search trending plants are listed as a 'top 10' and where to buy them at their cheapest.
 
 ## Languages and resources
 
