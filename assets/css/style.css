@@ -190,20 +190,21 @@ nav {
 }
 
 .aboutbannertext{
+    background-image: url(../images/aboutustext.jpeg);
+    background-position: left;
     background-size: 25%;
-    height: 10vh;
+    height: 15vh;
+    min-block-size: 5%;
     background-color: #e8fcc1;
     position: relative;
-    z-index: 1;
+    z-index: 2;
     margin:auto;
     display:block;
     bottom: 300px;
     border-radius: 20px;
     animation-duration: 1s;
     animation-fill-mode: forwards;
-    cursor: help;
-    fill:#e8fcc1
-    
+    cursor: help;  
 }
 
 .aboutbannertext:hover {
@@ -246,7 +247,6 @@ nav {
 }
 
 .servicestextbox{
-    background-image: url(../images/aboutustext.jpeg);
     background-position: left;
     background-size: 25%;
     height: 15vh;
@@ -260,8 +260,7 @@ nav {
     border-radius: 20px;
     animation-duration: 1s;
     animation-fill-mode: forwards;
-    cursor: help;
-    
+    cursor: help;  
 }
 
 .servicestextbox:hover {
