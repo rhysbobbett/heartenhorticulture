@@ -9,69 +9,81 @@
     <link rel="stylesheet" href="assets/css/style.css" type="text/css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"
     integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+    <meta name="description"
+      content="Horticulture Consultancy and Design located in South Wales">
     <title>Hearten Horticulture Ltd.</title>
 </head>
 
-<header class="bg sticky-top">
+<header id="sticky">
     <nav class="navbar navbar-expand-lg">
       <div class='navbar-header'>
         <a class="navbar-brand" href="index.html" rel="home" aria-label="Return to front page">
           <img src="./assets/images/logovector.png" id='myLogo' alt="Hearten Horticulture Logo">
         </a>
       </div>
-      <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="myNavBar" aria-label="Toggle navigation">
+      <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#myNavBar" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
-      <div class="navbar-collapse collapse " >
-        <ul class="nav navbar-nav " id="myNavBar">
+      <div class="collapse navbar-collapse" id="myNavBar">
+        <ul class="nav navbar-nav mr-auto">
           <li class="nav-item data-toggle="dropdown">
             <a class="nav-link" aria-current="#" aria-label="Home">Home</a>
-          </li>
-          <li class="nav-item ">
             <a class="nav-link" href="about.html" aria-label="About us">About Us</a>
-          </li>
-          <li class="nav-item ">
             <a class="nav-link" href="services.html" aria-label="Services and Portfolio">Services / Portfolio</a>
-          </li>
-          <li class="nav-item ">
             <a class="nav-link" href="contactus.html" aria-label="Contact us">Contact Us</a>
           </li>
         </ul>
       </div>
     </nav>
   </header>
-    <section class="container-fluid">
-        <div class="row">
-            <div class="backgroundimage"></div>
-            <div class="indextext">
-              <p>Welcome to Hearten Horticulture, click the images below to find out more about us!</p>
-            </div>
-          </div>
+
+  <main>
+    <section>
+      <div class="backgroundimageout">
+        <div class="row backgroundimage"></div>
+      </div>
     </section>
-    <section class="container-fluid">
-        <div class="row">
-            <div class="text-center bg">
-                <a href="contactus.html" class="btn btn-success">Contact Us!</a>
-            </div>
-        </div>
+    <section>
+      <div class="indextext">
+        <p>Welcome to Hearten Horticulture, click the images below to find out more about us!</p>
+      </div>
     </section>
     <section class="container-fluid">
       <div class="row">
-        <div class="aboutimage"></div>      
+          <div class="text-center bg">
+            <a href="contactus.html" class="btn btn-success" aria-label="Contact us button">Contact Us!</a>
+          </div>
+      </div>
+    </section>
+    <section class="container-fluid">
+      <div class="aboutus">
+          <a href="about.html">
+      </div>
+      <div class="aboutimage" href="about.html" rel="about" aria-label="Head over to 'About us'"></div>
+        <a href="about.html">
+          <img class="aboutbannertext" src="../assets/images/Aboutustext.jpeg" alt="Click here for more about us"> 
       </div>
     </section> 
-        <div id="serviceimage" class="text-center">
-            <a href="services.html">SERVICES / PORTFOLIO IMAGE</a>
+    <section>
+      <div class="servicesportfoliobanner">
+          <a href="services.html">
         </div>
-    <footer class="text-center">
-            <a href="https://www.facebook.com/heartenhorticulture/about" class="smicon" target="_blank" ><i class="fab fa-facebook fa-3x" style="color:#3da35d"></i></li>
-            <a href="https://www.twitter.com" class="smicon" target="_blank"><i class="fab fa-twitter-square fa-3x" style="color:#3da35d"></i></li>
-            <a href="https://www.youtube.com" class="smicon" target="_blank"><i class="fab fa-youtube-square fa-3x" style="color:#3da35d"></i></li>
-            <a href="https://www.instagram.com/heartenhorticulture/" class="smicon" target="_blank"><i class="fab fa-instagram fa-3x" style="color:#3da35d"></i></li>
-        <div class="footnotes">
-            <span>Copyright © 2023 Rhys Bobbett</span>
-        </div>    
-    </footer>
+        <div class="servicesimage" href="services.html" rel="about" aria-label="Head over to our Services & Portfolio page"></div>
+          <a href="services.html">
+            <img class="servicestextbox" src="../assets/images/servicestext.jpeg" alt="Click here for Services we provide"> 
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer class="text-center">
+       <a href="https://www.facebook.com/heartenhorticulture/about" class="smicon" target="_blank" ><i class="fab fa-facebook fa-3x" style="color:#3da35d"></i></li>
+       <a href="https://www.twitter.com" class="smicon" target="_blank"><i class="fab fa-twitter-square fa-3x" style="color:#3da35d"></i></li>
+       <a href="https://www.youtube.com" class="smicon" target="_blank"><i class="fab fa-youtube-square fa-3x" style="color:#3da35d"></i></li>
+       <a href="https://www.instagram.com/heartenhorticulture/" class="smicon" target="_blank"><i class="fab fa-instagram fa-3x" style="color:#3da35d"></i></li>
+      <div class="footnotes">
+          <span>Copyright © 2023 Rhys Bobbett</span>
+      </div>    
+  </footer>
 </body>
 
 </html>

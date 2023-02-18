@@ -144,8 +144,13 @@ Issue : Upon deployment to Github pages, my logo image was failing to load.
 Solution : This was fixed by changing the URL to navigate from the parent directory. This was solved by reading through the CSS documentation 
 
 Issue : When deploying to Github using the animated image png files in the CSS, the URL again failed to load correctly.
-Solution : leave path as single forward slash instead of a f
+Solution : formatting the folder as '../assets/images/filename.jpeg' allows github to correctly find the parent folder allowing images to load correctly.
 
+Issue : The 'Contact us!' button upon the homepage would not be visible when the background was moving.
+Solution : Using Z-index in the CSS, the layers can be sorted by their visibility order, and numbered accordingly, the order was corrected to suit the page requirements.
+
+Issue: This was an aesthetic issue, but having the links in the top right corner didn't provide the accessibility of placing them adjacent to the logo in a user's line of sight when looking at a desktop screen.
+Solution: Adjust design to accomodate centering the link navigation bar onscreen.
 
 ## Deployment
 I deployed the website to Github pages for testing purposes. The site was deployed by following instructions found in the Github docs page.
@@ -164,5 +169,5 @@ Thanks to these lessons, I have been able to understand some features of the ani
 
 ### Media
 * The main logo was created in Adobe Illustrator by myself 
-* All photographs and images were taken/created by myself.
+* All photographs, images and designs on the site I have either photographed, drawn or created by myself. The background images and banner images were created using [Stable Diffusion](https://github.com/Stability-AI/stablediffusion) which utilises [Python](https://github.com/python) and the [PyTorch](https://github.com/pytorch/pytorch) framework to create machine learning images. I trained the engine with additional images of gardens and plants I have photographed myself. 
 

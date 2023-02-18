@@ -8,28 +8,19 @@
    background-color: #e8fcc1;
    overflow-x: hidden;
    background-size: auto 100%;
+   z-index: 1;
 }
 
-/*Header*/
 
-.sticky-top {
-    position: absolute;
-    top: 0;
-    width: auto, 100%;
-    z-index: 9999;
+
+/* Header/Navbar*/
+nav {
+    background-color:#e8fcc1;
 }
 
-.navbar-brand {
-    display:block;
-    justify-content: flex-start;
-    align-items: flex-end;
-    background-color: #e8fcc1;
-    min-width: 10em;
-    min-height: 50%;
-    padding: 0, 6px, 0, 6px;
-    z-index: 9999;
-}
+.navbar-toggler {
 
+}
 
 
 #myLogo {
@@ -45,8 +36,7 @@
     right: 0px;
     animation-name: logo-zoom;
     animation-duration: 5s;
-    animation-fill-mode: forwards; 
-      
+    animation-fill-mode: forwards;      
 }
 
 @keyframes logo-zoom {
@@ -58,38 +48,20 @@
         transform: scale(1.05);
     }
 }
-
-a:hover {
-    text-decoration: none;
-    }
-    
-#MyNavBar a {
-    font-family: "Barlow Condensed", sans-serif;
-    font-size: 2em;
-    padding: 1em;
-    margin-left: 0;
-    cursor: help;
-    justify-content: flex-end;
-    color: #97e072;
-    background-size: contain;
-    display: inline-flex;
-    }
-    
+   
 .nav-link {
     color: #97e072;
-    margin: auto;
-    text-align: center;
+    text-align: right;
     margin-left: 0;
-    font-family: 'Barlow Condensed';
+    font-family: 'Barlow Condensed', sans-serif;
     font-size: 2em;
     padding: 0px, 5px, 0px, 5px,;
-
-    }
+}
     
 .nav-link:hover {
     animation: colourchange 1s both;
     
-    }
+}
     
 @keyframes colourchange {
     0% {
@@ -107,20 +79,56 @@ a:hover {
     
 .nav-item:active {
     color: #134611;
-    }
-    
+}
+
+.nav-item a {
+    float: left;
+    align-items: center;
+}
+
+#sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    transition: top 0.1s;
+    z-index: 1;
+}
 /*index.html*/
+
+
 
 .backgroundimage {
     background-image: url(../images/DayGarden.jpeg);
-    background-position: left;
+    background-position: center;
     background-repeat: no-repeat;
-    background-size: 200vw;
-    height: 75vh ;
-    min-zoom: 75%;
-    min-block-size: 50%;
-    background-color: #e8fcc1;
-    margin: 0px, 0px, 5px, 5px;    
+    background-size: cover;
+    height: 100vh;
+    width:100%;
+    z-index: 0;
+    animation-name: hero-zoom;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+    background-color: #000;
+}
+
+.backgroundimageout {
+    height: 100vh;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    z-index: 0;
+}
+
+@keyframes hero-zoom {
+    from {
+        transform: scale(1.05);
+        overflow: hidden;
+    }
+
+    to {
+        transform: scale(1.00);
+        overflow: hidden;
+    }
 }
 
 .container {
@@ -128,70 +136,152 @@ a:hover {
     justify-content: center;
     align-items: center;
     height: 100%;
-    z-index: 9999;
+    z-index: 1;
+    background-color: #e8fcc1;
 }
 
+/*---Introduction Text---*/
+
+.indextext {
+    font-family: "Barlow Condensed", sans-serif;
+    font-size: 2em;
+    padding: 0.5em;
+    margin: 0.5em;
+    justify-content: center;
+    color: #97e072;
+    background-size: contain;
+    display: inline-flex;
+    position: relative;
+    z-index: 0;
+}
+
+/*--About us image and text--*/
+.container-fluid {
+    z-index: 0;
+}
+
+.aboutus {
+    position: relative;
+    top: 0;
+    bottom: 0;
+    background-color: #e8fcc1;
+    height: 50%;
+    width: 50%;
+    z-index: 1;
+    fill: #e8fcc1;
+}
+
+.aboutus > a {
+    background-color:#e8fcc1;
+    fill: #e8fcc1;
+}
 
 .aboutimage {
     background-image: url(../images/aboutbanner.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: auto;
+    height: 50vh;
+    min-block-size: 50%;
+    background-color: #e8fcc1;
+    position: relative;
+    z-index: 1;
+}
+
+.aboutbannertext{
+    background-size: 25%;
+    height: 10vh;
+    background-color: #e8fcc1;
+    position: relative;
+    z-index: 1;
+    margin:auto;
+    display:block;
+    bottom: 300px;
+    border-radius: 20px;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+    cursor: help;
+    fill:#e8fcc1
+    
+}
+
+.aboutbannertext:hover {
+    animation-name: zoom;
+}
+
+@keyframes zoom {
+    from {
+        transform: scale(1.00);
+    }
+
+    to {
+        transform: scale(1.2);
+    }
+    
+}
+
+
+.servicesportfoliobanner > a {
+    position: relative;
+    top: 0;
+    bottom: 0;
+    z-index: 1;
+    background-color: #e8fcc1;
+    background-size: cover;
+}
+
+.servicesimage {
+    background-image: url(../images/.jpeg);
     background-position: left;
     background-repeat: no-repeat;
     background-size: 200vw;
     height: 50vh;
     min-zoom: 50%;
+    display:block;
     min-block-size: 50%;
     background-color: #e8fcc1;
-    margin: 0px, 0px, 5px, 5px;
+    position: relative;
+    z-index: 1;
 }
 
-.indextext {
-    font-family: "Barlow Condensed", sans-serif;
-    font-size: 2em;
-    padding: 1em;
-    margin-left: 0;
+.servicestextbox{
+    background-image: url(../images/aboutustext.jpeg);
+    background-position: left;
+    background-size: 25%;
+    height: 15vh;
+    min-block-size: 5%;
+    background-color: #e8fcc1;
+    position: relative;
+    z-index: 2;
+    margin:auto;
+    display:block;
+    bottom: 300px;
+    border-radius: 20px;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
     cursor: help;
-    justify-content: center;
-    color: #97e072;
-    background-size: contain;
-    display: inline-flex;
+    
 }
+
+.servicestextbox:hover {
+    animation-name: zoom;
+}
+
+@keyframes zoom {
+    from {
+        transform: scale(1.00);
+    }
+
+    to {
+        transform: scale(1.2);
+    } 
+}
+
+
 
 /*about.html*/
 
-.background2 {
-    background-image: url(../images/DawnGarden.jpeg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: 100%;
-    max-height: 100vh;
-    min-width: 1180px;
-    animation-name: slide;
-    animation-duration: 10s;
-    animation-fill-mode: forwards;
-    background-color: #e8fcc1;
-    overflow: hidden;
-    scroll-behavior: smooth;
-    z-index: 9999:
-    padding: 0, 10, 0, 10;
-    object-fit: contain;
-}
-
-@keyframes slide {
-    0% {transform: 
-        translateY(0);
-        opacity: 0;}
-    100% {transform: 
-        translateY(-120vh);}
-}
-
-
-.abouttext-box1 {
-    font-family: "Montserrat", sans-serif;
-    font-size: medium;
-    justify-content: center;
-    align-items:center;
-    padding: 0, 10, 0, 10;
-}
 
 /*-------------Footer*/
 footer {
