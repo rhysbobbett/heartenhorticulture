@@ -267,17 +267,6 @@ nav {
 
 /*about.html*/
 
-
-/*-------------Footer*/
-footer {
-    background-color: #e8fcc1;
-}
-
-.footnotes {
-    color: #134611;
-}
-
-
 /*---Services---*/
 
 /*---Contact us---*/
@@ -371,4 +360,21 @@ footer {
 
 .home-btn {
     font-size: 40px;
+}
+
+/*-------------Footer*/
+footer {
+    background-color: #e8fcc1;
+}
+
+.footnotes {
+    color: #134611;
+}
+
+.smicon {
+    color: #3da35d;
+}
+
+.smicon:hover {
+    color: #134611;
 }
