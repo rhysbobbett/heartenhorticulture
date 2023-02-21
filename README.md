@@ -155,6 +155,7 @@ The about us page will act as a key personnel page within the business, alongsid
 - [Gitpod](https://www.gitpod.io) – IDE used to write the site.
 
 ## Testing
+### Bugs
 Issue : Upon deployment to Github pages, my logo image was failing to load.
 Solution : This was fixed by changing the URL to navigate from the parent directory. This was solved by reading through the CSS documentation 
 
@@ -162,10 +163,12 @@ Issue : When deploying to Github using the animated image png files in the CSS, 
 Solution : formatting the folder as '../assets/images/filename.jpeg' allows github to correctly find the parent folder allowing images to load correctly.
 
 Issue : The 'Contact us!' button upon the homepage would not be visible when the background was moving.
-Solution : Using Z-index in the CSS, the layers can be sorted by their visibility order, and numbered accordingly, the order was corrected to suit the page requirements.
+Solution : Using Z-index in the CSS, the layers can be sorted by their visibility order, and numbered accordingly, the order was corrected to suit the page requirements. This method was applied to allow images to be placed on top of other images on the index.html page.
 
 Issue: This was an aesthetic issue, but having the links in the top right corner didn't provide the accessibility of placing them adjacent to the logo in a user's line of sight when looking at a desktop screen.
 Solution: Adjust design to accomodate centering the link navigation bar onscreen.
+
+
 
 ## Deployment
 I deployed the website to Github pages for testing purposes. The site was deployed by following instructions found in the Github docs page.

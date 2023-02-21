@@ -8,12 +8,13 @@
    background-color: #e8fcc1;
    overflow-x: hidden;
    background-size: auto 100%;
-   z-index: 1;
+   
 }
 
 /* Header/Navbar*/
 nav {
     background-color:#e8fcc1;
+    
 }
 
 .navbar-toggler {
@@ -49,7 +50,7 @@ nav {
    
 .nav-link {
     color: #97e072;
-    text-align: right;
+    text-align: left;
     margin-left: 0;
     font-family: 'Barlow Condensed', sans-serif;
     font-size: 2em;
@@ -58,7 +59,6 @@ nav {
     
 .nav-link:hover {
     animation: colourchange 1s both;
-    
 }
     
 @keyframes colourchange {
@@ -89,11 +89,9 @@ nav {
     top: 0;
     width: 100%;
     transition: top 0.1s;
-    z-index: 1;
+    
 }
 /*index.html*/
-
-
 
 .backgroundimage {
     background-image: url(../images/DayGarden.jpeg);
@@ -102,7 +100,6 @@ nav {
     background-size: cover;
     height: 100vh;
     width:100%;
-    z-index: 0;
     animation-name: hero-zoom;
     animation-duration: 5s;
     animation-fill-mode: forwards;
@@ -113,8 +110,7 @@ nav {
     height: 100vh;
     width: 100%;
     overflow: hidden;
-    position: relative;
-    z-index: 0;
+    position: relative;   
 }
 
 @keyframes hero-zoom {
@@ -134,8 +130,7 @@ nav {
     justify-content: center;
     align-items: center;
     height: 100%;
-    z-index: 1;
-    background-color: #e8fcc1;
+    color: #e8fcc1;
 }
 
 /*---Introduction Text---*/
@@ -149,15 +144,10 @@ nav {
     color: #97e072;
     background-size: contain;
     display: inline-flex;
-    position: relative;
-    z-index: 0;
+    position: relative;    
 }
 
 /*--About us image and text--*/
-.container-fluid {
-    z-index: 0;
-}
-
 .aboutus {
     position: relative;
     top: 0;
@@ -165,13 +155,12 @@ nav {
     background-color: #e8fcc1;
     height: 50%;
     width: 50%;
-    z-index: 1;
     fill: #e8fcc1;
 }
 
 .aboutus > a {
     background-color:#e8fcc1;
-    fill: #e8fcc1;
+    fill: #e8fcc1;  
 }
 
 .aboutimage {
@@ -184,8 +173,7 @@ nav {
     min-zoom: 50%;
     min-block-size: 50%;
     background-color: #e8fcc1;
-    margin: 0px, 0px, 5px, 5px;
-    z-index: 1;
+    margin: 0px, 0px, 5px, 5px;   
 }
 
 .aboutbannertext{
@@ -195,8 +183,7 @@ nav {
     height: 12vh;
     min-block-size: 5%;
     background-color: #e8fcc1;
-    position: relative;
-    z-index: 2;
+    position: relative; 
     margin:auto;
     display:block;
     bottom: 300px;
@@ -224,8 +211,7 @@ nav {
 .servicesportfoliobanner > a {
     position: relative;
     top: 0;
-    bottom: 0;
-    z-index: 1;
+    bottom: 0;   
     background-color: #e8fcc1;
     background-size: cover;
 }
@@ -240,8 +226,7 @@ nav {
     display:block;
     min-block-size: 50%;
     background-color: #e8fcc1;
-    position: relative;
-    z-index: 1;
+    position: relative;  
 }
 
 .servicesimage img{
@@ -254,8 +239,7 @@ nav {
     height: 15vh;
     min-block-size: 5%;
     background-color: #e8fcc1;
-    position: relative;
-    z-index: 2;
+    position: relative;   
     margin:auto;
     display:block;
     bottom: 300px;
@@ -291,4 +275,100 @@ footer {
 
 .footnotes {
     color: #134611;
+}
+
+
+/*---Services---*/
+
+/*---Contact us---*/
+
+.contactus-row {
+    background: url(../images/contactbackground.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 800px;
+    width: 100%;
+    position: relative;
+    opacity: 100%;
+}
+
+.form-container {
+    max-width: 70%;
+    margin: 0 auto;
+    padding: 20px 10px 20px 10px;
+    background-color: #565e4893;
+    position: absolute;
+    top: 80px;
+    left: 15%;
+    font-size: 1.5em;
+}
+
+.contactus-heading {
+    font-family: "Barlow Condensed", sans-serif;
+    font-size: 2em;
+    font-weight: 600;
+    padding: 10px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.contactus-paragraph {
+    font-family: "Barlow Condensed", sans-serif;
+    font-weight: 500;
+    padding: 5px;
+    text-align: center;
+    margin: 20px 0 30px 0;
+}
+
+.form-control {
+    font-family: "Barlow Condensed", sans-serif;
+    margin: 20px auto;
+}
+
+.form-input:hover {
+    border-color: #134611;
+}
+
+.submit-btn:hover {
+    border-color:#134611;
+}
+
+/*---Response_page---*/
+
+
+
+/*---404 page---*/
+.error-page {
+    background: url(../images/404image.webp);
+    background-position: center;
+    background-repeat: no=repeat;
+    background-size: cover;
+    height:100vh;
+    width: 100%;
+    position: relative;
+    background-color:#e8fcc1 ;
+}
+
+.errorcontainer {
+    max-width: 70%;
+    margin: 0, 0, 0, 0;
+    padding: 20px 10px 20px 10px;
+    background-color: #e8fcc1a1;
+    position: absolute;
+    top: 80px;
+    left: 15%;
+    font-size: 1.5em;
+}
+
+.error-message {
+    width: 100%;
+    text-align: center;
+    position: absolute;
+    font-family:"Barlow Condensed", sans-serif;
+    font-weight: 200;
+}
+
+.home-btn {
+    font-size: 40px;
 }
