@@ -168,6 +168,9 @@ Solution : Using Z-index in the CSS, the layers can be sorted by their visibilit
 Issue: This was an aesthetic issue, but having the links in the top right corner didn't provide the accessibility of placing them adjacent to the logo in a user's line of sight when looking at a desktop screen.
 Solution: Adjust design to accomodate centering the link navigation bar onscreen.
 
+Issue: Toggle of my burger button was not initiating the dropdown menu.
+Solution: I had been using a slightly outdated version of bootstrap, I added the updated CDN links to the head of my pages and it now works.
+
 
 
 ## Deployment

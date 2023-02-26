@@ -8,19 +8,22 @@
    background-color: #e8fcc1;
    overflow-x: hidden;
    background-size: auto 100%;
-   
 }
 
 /* Header/Navbar*/
 nav {
     background-color:#e8fcc1;
-    
 }
 
-.navbar-toggler {
-
+.mytoggle {
+    border: none;
+    box-shadow: none;
 }
 
+.mytoggle:focus {
+    border: none;
+    box-shadow: none;
+}
 
 #myLogo {
     display: inline-block;
@@ -217,7 +220,7 @@ nav {
 }
 
 .servicesimage {
-    background-image: url(../images/.jpeg);
+    background-image: url(../images/services.webp);
     background-position: left;
     background-repeat: no-repeat;
     background-size: 200vw;
@@ -263,13 +266,48 @@ nav {
     } 
 }
 
+/*-----about.html-----*/
+
+.aboutheading {
+    text-align: center;
+    font-family:"Barlow Condensed", sans-serif;
+    font-size: 3em;
+    color: #134611;
+    padding: 40px;
+}
+
+.aboutpara {
+    text-align: center;
+    font-family:"Barlow Condensed", sans-serif;
+    font-size: 2em;
+    color: #134611;
+    padding: 40px;
+}
+
+.cathface
+
+.cathabout {
+    text-align: center;
+    font-family:"Barlow Condensed", sans-serif;
+    font-size: 2em;
+    color: #134611;
+    padding: 40px;
+}
 
 
-/*about.html*/
+.rhysface
 
-/*---Services---*/
+.rhysabout {
+    text-align: center;
+    font-family:"Barlow Condensed", sans-serif;
+    font-size: 2em;
+    color: #134611;
+    padding: 40px;
+}
 
-/*---Contact us---*/
+/*-----Services-----*/
+
+/*-----Contact us-----*/
 
 .contactus-row {
     background: url(../images/contactbackground.webp);
@@ -323,11 +361,8 @@ nav {
     border-color:#134611;
 }
 
-/*---Response_page---*/
+/*-----404 page-----*/
 
-
-
-/*---404 page---*/
 .error-page {
     background: url(../images/404image.webp);
     background-position: center;
@@ -362,7 +397,17 @@ nav {
     font-size: 40px;
 }
 
-/*-------------Footer*/
+/*-----Response page=====*/
+.tymessage {
+    text-align: center;
+    font-family:"Barlow Condensed", sans-serif;
+    font-size: 3em;
+    color: #134611;
+    padding: 40px;
+}
+
+/*-------Footer-------*/
+
 footer {
     background-color: #e8fcc1;
 }
@@ -377,4 +422,14 @@ footer {
 
 .smicon:hover {
     color: #134611;
+}
+
+/*----Media Query----*/
+@media screen and (min-width: 576px) { 
+}
+
+@media screen and (min-width: 768px) {
+}
+
+@media screen and (min-width: 992px) {    
 }
