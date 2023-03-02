@@ -106,8 +106,9 @@ nav {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    max-height: 100%;
     height: 100vh;
-    width:100%;
+    width: 100%;
     animation-name: hero-zoom;
     animation-duration: 5s;
     animation-fill-mode: forwards;
@@ -115,7 +116,7 @@ nav {
 }
 
 .backgroundimageout {
-    height: 100vh;
+    height: 25vh;
     width: 100%;
     overflow: hidden;
     position: relative;   
@@ -137,8 +138,9 @@ nav {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100%;
+    height: 100vh;
     color: #e8fcc1;
+
 }
 
 /*---Introduction Text---*/
@@ -289,28 +291,63 @@ nav {
     padding: 40px;
 }
 
-.cathface
+.cathface {
+
+}
 
 .cathabout {
-    text-align: center;
+    text-align: left;
     font-family:"Barlow Condensed", sans-serif;
-    font-size: 2em;
+    font-size: 1.5em;
     color: #134611;
     padding: 40px;
 }
 
+.rhysface {
 
-.rhysface
+}
 
 .rhysabout {
-    text-align: center;
+    text-align: left;
     font-family:"Barlow Condensed", sans-serif;
-    font-size: 2em;
+    font-size: 1.5em;
     color: #134611;
     padding: 40px;
 }
 
 /*-----Services-----*/
+
+.servicebanner{
+    background: url(../images/service2.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 800px;
+    width: 100%;
+    position: relative;
+    opacity: 100%;
+}
+
+.serviceheading {
+    text-align: center;
+    font-family:"Barlow Condensed", sans-serif;
+    font-size: 3em;
+    color: #134611;
+    padding: 10px;
+    margin: 0;
+}
+
+.servicetext {
+    text-align: center;
+    font-family:"Barlow Condensed", sans-serif;
+    font-size: 2em;
+    color: #134611;
+    padding: 10px;
+}
+
+.listalign {
+    text-align: left;
+}
 
 /*-----Contact us-----*/
 
