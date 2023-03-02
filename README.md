@@ -171,6 +171,9 @@ Solution: Adjust design to accomodate centering the link navigation bar onscreen
 Issue: Toggle of my burger button was not initiating the dropdown menu.
 Solution: I had been using a slightly outdated version of bootstrap, I added the updated CDN links to the head of my pages and it now works.
 
+Issue: Content overlaps with footer on services page.
+Solution: Adjust image size using the CSS vh variable and create a container to act as a heading banner.
+
 
 
 ## Deployment
