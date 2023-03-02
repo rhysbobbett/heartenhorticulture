@@ -154,8 +154,37 @@ The about us page will act as a key personnel page within the business, alongsid
 - [Github](https://github.com/) – Repository for the site’s code.
 - [Gitpod](https://www.gitpod.io) – IDE used to write the site.
 
-## Testing
-### Bugs
+
+
+## Deployment
+I deployed the website to Github pages for testing purposes. The site was deployed by following instructions found in the Github docs page.
+I navigated to my site's repository, selected 'Settings', then 'Code and Automation' section, navigated to 'Pages', then 'Source' to select the main branch of the repository, upon clicking 'Save', the repository was deployed.
+
+## Credits
+
+Browsing on www.codepen.io has shown me a few things related to colour changing transitions with the @keyframes rule, used to create CSS animations using the CSS animation property. 
+I have been inspired by the site relating to changing colours of text as an animation to use in my links and scrolling backgrounds. Credits to https://codepen.io/vailjoy for the lesson at (https://codepen.io/vailjoy/pen/KaqNMM) on changing colour of backgrounds, and credits to Henry Gilson https://codepen.io/henryedg on the scrolling background image lesson https://codepen.io/henryedg/pen/zYzzXON
+Thanks to these lessons, I have been able to understand some features of the animation property in CSS.
+I read about whether to utilise purely flexbox or bootstrap on 
+
+### Content
+* The font 'Barlow Condensed' comes from [Google Fonts](https://fonts.google.com/)
+* Instructions relating to creating a clickable image comes from [w3 Schools](https://www.w3schools.com/), specifically a section of using images in HTML and a subsection called [Images as a link](https://www.w3schools.com/html/html_images.asp)
+* Instructions relating to Github deployment come from Github's docs pages [Github Docs](https://docs.github.com/en)
+* Icons in the footer come from [Font Awesome](https://fontawesome.com/icons)
+
+### Media
+* The main logo and image links were created in Adobe Illustrator by myself 
+* All photographs, images and designs on the site I have either photographed, drawn or created myself. The background images and banner images were created using [Stable Diffusion](https://github.com/Stability-AI/stablediffusion) which utilises [Python](https://github.com/python) and the [PyTorch](https://github.com/pytorch/pytorch) framework to create machine learning images. I trained the framework with additional images of gardens and plants I have photographed myself in the past. 
+
+# Testing
+
+I have carried out testing to fix bugs and validated the HTML and CSS of each page, results shown below.
+
+## Bugs
+
+Firstly, I will go over basic problems I bugs and issues I encountered when coding the site.
+
 Issue : Upon deployment to Github pages, my logo image was failing to load.
 Solution : This was fixed by changing the URL to navigate from the parent directory. This was solved by reading through the CSS documentation 
 
@@ -175,23 +204,8 @@ Issue: Content overlaps with footer on services page.
 Solution: Adjust image size using the CSS vh variable and create a container to act as a heading banner.
 
 
+## Code Validation
 
-## Deployment
-I deployed the website to Github pages for testing purposes. The site was deployed by following instructions found in the Github docs page.
-I navigated to my site's repository, selected 'Settings', then 'Code and Automation' section, navigated to 'Pages', then 'Source' to select the main branch of the repository, upon clicking 'Save', the repository was deployed.
+### HTML
 
-## Credits
-
-Browsing on www.codepen.io has shown me a few things related to colour changing transitions with the @keyframes rule, used to create CSS animations using the CSS animation property. I have been inspired by the site relating to changing colours of text as an animation to use in my links and scrolling backgrounds. Credits to https://codepen.io/vailjoy for the lesson at (https://codepen.io/vailjoy/pen/KaqNMM) on changing colour of backgrounds, and credits to Henry Gilson https://codepen.io/henryedg on the scrolling background image lesson https://codepen.io/henryedg/pen/zYzzXON
-Thanks to these lessons, I have been able to understand some features of the animation property in CSS.
-
-### Content
-* The font 'Barlow Condensed' comes from [Google Fonts](https://fonts.google.com/)
-* Instructions relating to creating a clickable image comes from [w3 Schools](https://www.w3schools.com/), specifically a section of using images in HTML and a subsection called [Images as a link](https://www.w3schools.com/html/html_images.asp)
-* Instructions relating to Github deployment come from Github's docs pages [Github Docs](https://docs.github.com/en)
-* Icons in the footer come from [Font Awesome](https://fontawesome.com/icons)
-
-### Media
-* The main logo was created in Adobe Illustrator by myself 
-* All photographs, images and designs on the site I have either photographed, drawn or created by myself. The background images and banner images were created using [Stable Diffusion](https://github.com/Stability-AI/stablediffusion) which utilises [Python](https://github.com/python) and the [PyTorch](https://github.com/pytorch/pytorch) framework to create machine learning images. I trained the engine with additional images of gardens and plants I have photographed myself. 
 

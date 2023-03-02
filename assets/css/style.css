@@ -148,10 +148,8 @@ nav {
     font-size: 2em;
     padding: 0.5em;
     margin: 0.5em;
-    justify-content: center;
     color: #97e072;
     background-size: contain;
-    display: inline-flex;
     position: relative;    
 }
 
@@ -172,7 +170,7 @@ nav {
 }
 
 .aboutimage {
-    background-image: url(../images/aboutbanner.jpeg);
+    background-image: url(../images/aboutbanner.webp);
     background-position: center;
     background-repeat: no-repeat;
     background-size: 200vw;
@@ -185,7 +183,7 @@ nav {
 }
 
 .aboutbannertext{
-    background-image: url(../images/aboutustext.jpeg);
+    background-image: url(../images/aboutustext.webp);
     background-position: left;
     background-size: 25%;
     height: 12vh;
@@ -273,6 +271,18 @@ nav {
 
 /*-----about.html-----*/
 
+.aboutusbanner {
+    background-image: url(../images/aboutuspagebanner.webp);
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: 200vw;
+    display: block;
+    min-block-size: 50%;
+    background-color: #e8fcc1;
+    position: relative;
+    text-align: center;
+}
+
 .aboutheading {
     text-align: center;
     font-family:"Barlow Condensed", sans-serif;
@@ -281,14 +291,44 @@ nav {
     padding: 40px;
 }
 
+.aboutheading:hover {
+    animation: colourchange2 1s both;
+}
+    
+@keyframes colourchange2 {
+    0% {
+    color: #134611;
+    background-color:#97e072;
+    opacity: 100%;
+    font-size: 3em;
+    }
+    100% {
+    color: #97e072;
+    background-color:#134611;
+    font-size: 6em;
+    }
+}
+
 .aboutpara {
     text-align: center;
     font-family:"Barlow Condensed", sans-serif;
     font-size: 2em;
     color: #134611;
-    padding: 40px;
+    padding: 0px;
+    margin: 0;
+    display:inline-flex;
 }
 
+.contactustext {
+    text-align: center;
+    font-family:"Barlow Condensed", sans-serif;
+    font-size: 1.5em;
+    color: #134611;
+    margin:0px;
+    padding: 10px;
+    display:block;
+
+}
 .cathface {
 
 }
@@ -320,7 +360,6 @@ nav {
     background-position: left;
     background-repeat: no-repeat;
     background-size: 200vw;
-    height: 20vh;
     display: block;
     min-block-size: 50%;
     background-color: #e8fcc1;
@@ -333,10 +372,7 @@ nav {
     font-family:"Barlow Condensed", sans-serif;
     font-size: 3em;
     color: #134611;
-    padding: 10px;
-    margin: 0;
-    margin-top:10
-    justify-content: center;
+    padding: 40px;
 }
 
 .servicetext {
