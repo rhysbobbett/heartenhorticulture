@@ -143,8 +143,6 @@ nav {
 
 }
 
-/*---Introduction Text---*/
-
 .indextext {
     font-family: "Barlow Condensed", sans-serif;
     font-size: 2em;
@@ -157,7 +155,6 @@ nav {
     position: relative;    
 }
 
-/*--About us image and text--*/
 .aboutus {
     position: relative;
     top: 0;
@@ -166,6 +163,7 @@ nav {
     height: 50%;
     width: 50%;
     fill: #e8fcc1;
+    top: 110.52px;
 }
 
 .aboutus > a {
@@ -319,13 +317,15 @@ nav {
 
 .servicebanner{
     background: url(../images/service2.png);
-    background-position: center;
+    background-position: left;
     background-repeat: no-repeat;
-    background-size: cover;
-    height: 800px;
-    width: 100%;
+    background-size: 200vw;
+    height: 20vh;
+    display: block;
+    min-block-size: 50%;
+    background-color: #e8fcc1;
     position: relative;
-    opacity: 100%;
+    text-align: center;
 }
 
 .serviceheading {
@@ -335,6 +335,8 @@ nav {
     color: #134611;
     padding: 10px;
     margin: 0;
+    margin-top:10
+    justify-content: center;
 }
 
 .servicetext {
@@ -343,6 +345,8 @@ nav {
     font-size: 2em;
     color: #134611;
     padding: 10px;
+    display: flex;
+    
 }
 
 .listalign {
@@ -470,7 +474,7 @@ footer {
 @media screen and (min-width: 576px) { 
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (max-width: 768px) {
 }
 
 @media screen and (min-width: 992px) {    
