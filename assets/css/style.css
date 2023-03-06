@@ -370,7 +370,6 @@ nav {
     background-size: 200vw;
     display: block;
     min-block-size: 50%;
-    background-color: #e8fcc1;
     position: relative;
     text-align: center;
 }
@@ -395,6 +394,14 @@ nav {
 
 .listalign {
     text-align: left;
+}
+
+/*---Gallery---*/
+.gallery {
+    background-color: #e8fcc1;
+    text-align: center;
+    font-family: "Barlow Condensed";
+    font-size: 3vh;    
 }
 
 /*-----Contact us-----*/
@@ -515,11 +522,14 @@ footer {
 }
 
 /*----Media Query----*/
-@media screen and (min-width: 576px) { 
-}
+/*--- Small devices (landscape phones, 576px and up)---*/
+@media (min-width: 576px) { }
 
-@media screen and (max-width: 768px) {
-}
+/*--- Medium devices (tablets, 768px and up)---*/
+@media (min-width: 768px) { }
 
-@media screen and (min-width: 992px) {    
-}
+/*---Large devices (desktops, 992px and up)---*/
+@media (min-width: 992px) {  }
+
+/*--- Extra large devices (large desktops, 1200px and up)---*/
+@media (min-width: 1200px) {  }
