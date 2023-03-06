@@ -5,6 +5,13 @@
 }
 
 html, body {
+    overflow-x: hidden;
+  }
+  body {
+    position: relative
+  }
+
+html, body {
   height: 100%;
 }
 
