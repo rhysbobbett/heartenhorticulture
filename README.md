@@ -165,16 +165,18 @@ I navigated to my site's repository, selected 'Settings', then 'Code and Automat
 Browsing on www.codepen.io has shown me a few things related to colour changing transitions with the @keyframes rule, used to create CSS animations using the CSS animation property. 
 I have been inspired by the site relating to changing colours of text as an animation to use in my links and scrolling backgrounds. Credits to https://codepen.io/vailjoy for the lesson at (https://codepen.io/vailjoy/pen/KaqNMM) on changing colour of backgrounds, and credits to Henry Gilson https://codepen.io/henryedg on the scrolling background image lesson https://codepen.io/henryedg/pen/zYzzXON
 Thanks to these lessons, I have been able to understand some features of the animation property in CSS.
-I read about whether to utilise purely flexbox or bootstrap on 
+I read about whether to utilise purely flexbox or bootstrap on stackoverflow's forums after searching the question through google, with most people recommending that both should be used when appropriate.
+The gallery is to be based on a bootstrap template gallery found at [mdbootstrap](https://mdbootstrap.com/docs/standard/extended/gallery/), mdbootstrap.com provides open source user interface kits for bootstrap. I tested using the provided gallery and editted it to my choosing over the course of the service and portfolio page's creation.
 
 ### Content
 * The font 'Barlow Condensed' comes from [Google Fonts](https://fonts.google.com/)
-* Instructions relating to creating a clickable image comes from [w3 Schools](https://www.w3schools.com/), specifically a section of using images in HTML and a subsection called [Images as a link](https://www.w3schools.com/html/html_images.asp)
+* Instructions relating to creating a clickable logo/image comes from [w3 Schools](https://www.w3schools.com/), specifically a section of using images in HTML and a subsection called [Images as a link](https://www.w3schools.com/html/html_images.asp)
 * Instructions relating to Github deployment come from Github's docs pages [Github Docs](https://docs.github.com/en)
 * Icons in the footer come from [Font Awesome](https://fontawesome.com/icons)
+* The gallery is based on a gallery from mdbootstrap, and is an open source interface kit. I have begun with a basic gallery but will develop this further.
 
 ### Media
 * The main logo and image links were created in Adobe Illustrator by myself 
 * All photographs, images and designs on the site I have either photographed, drawn or created myself. The background images and banner images were created using [Stable Diffusion](https://github.com/Stability-AI/stablediffusion) which utilises [Python](https://github.com/python) and the [PyTorch](https://github.com/pytorch/pytorch) framework to create machine learning images. I trained the framework with additional images of gardens and plants I have photographed myself in the past. 
 
-Continue to [TESTING.md](https://github.com/rhysbobbett/heartenhorticulture/TESTING.md)
+Continue to [TESTING.md](TESTING.md)
