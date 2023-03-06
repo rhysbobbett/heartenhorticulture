@@ -51,6 +51,8 @@ nav {
     min-width: 100%;
     min-height: 6.18em;
     max-height: 240px;
+    width: 25%;
+    height: 25%;
     max-width: 50%;
     height: 50%;
 
@@ -70,7 +72,7 @@ nav {
 }
    
 .nav-link {
-    color: #97e072;
+    color: #21721e;
     text-align: left;
     margin-left: 15px;
     margin-top: 10px;
@@ -92,13 +94,13 @@ nav {
     }
     100% {
     color: #97e072;
-    border-radius: 100%;
+    border-radius: 50%;
     background-color:#134611;
     }
 }
     
 .nav-item:active {
-    color: #134611;
+    color: #3ab636;
 }
 
 .nav-item a {
@@ -153,7 +155,7 @@ nav {
     font-size: 2em;
     padding: 0.5em;
     margin: 0.5em;
-    color: #97e072;
+    color:#134611;
     background-size: contain;
     position: relative;    
 }
@@ -180,6 +182,7 @@ nav {
     background-repeat: no-repeat;
     background-size: 200vw;
     height: 50vh;
+    width: auto;
     position:relative;
     min-zoom: 50%;
     min-block-size: 50%;
