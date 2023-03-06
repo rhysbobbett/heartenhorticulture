@@ -4,6 +4,15 @@
     text-decoration: none !important; 
 }
 
+html, body {
+  height: 100%;
+}
+
+body > footer{
+    position: sticky;
+    top:100vh;
+}
+
 .bg {
    background-color: #e8fcc1;
    overflow-x: hidden;
@@ -30,7 +39,6 @@ nav {
 }
 
 #myLogo {
-    display: inline-block;
     margin-left: 0;
     margin-right: 100;
     min-width: 100%;
@@ -38,8 +46,7 @@ nav {
     max-height: 240px;
     max-width: 50%;
     height: 50%;
-    left: 0px;
-    right: 0px;
+
     animation-name: logo-zoom;
     animation-duration: 5s;
     animation-fill-mode: forwards;      
@@ -102,7 +109,7 @@ nav {
 /*index.html*/
 
 .backgroundimage {
-    background-image: url(../images/DayGarden.jpeg);
+    background-image: url(../images/daygarden.webp);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -124,23 +131,14 @@ nav {
 
 @keyframes hero-zoom {
     from {
-        transform: scale(1.05);
+        transform: scale(1.15);
         overflow: hidden;
     }
 
     to {
-        transform: scale(1.00);
+        transform: scale(1.1);
         overflow: hidden;
     }
-}
-
-.container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    color: #e8fcc1;
-
 }
 
 .indextext {
@@ -448,10 +446,10 @@ nav {
 .error-page {
     background: url(../images/404image.webp);
     background-position: center;
-    background-repeat: no=repeat;
+    background-repeat: no-repeat;
     background-size: cover;
     height:100vh;
-    width: 100%;
+    width: 100vw;
     position: relative;
     background-color:#e8fcc1 ;
 }
