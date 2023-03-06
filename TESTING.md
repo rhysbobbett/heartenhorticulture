@@ -24,8 +24,12 @@ Solution: I had been using a slightly outdated version of bootstrap, I added the
 Issue: Content overlaps with footer on services page.
 Solution: Adjust image size using the CSS vh variable and create a container to act as a heading banner. Change the class to that of bootstrap's 'container-fluid' in the correct divs on the page.
 
+## Accesibility Audit 
+Using Chrome's Lighthouse developer tools, I was able to get a good accesibility score on each of my website's pages.
+I have had to darken some fonts that were originally going to be lighter shades of green, this was to reach a minimum rating of 4 for contrast visibility. The colour scheme I have used is still co-ordinated using my original palette but some colours have been swapped around on certain stand-alone blocks of text and changed slightly from the original specified colours to allow for features such as the active page in the navbar to be seen as active, the active link bootstrap property changes the text to black.
 
 ## Code Validation
+
 
 
 ### HTML
