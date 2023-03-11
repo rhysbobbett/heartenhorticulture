@@ -47,7 +47,7 @@ nav {
 
 #myLogo {
     margin-left: 0;
-    margin-right: 100;
+    margin-right: 100%;
     min-width: 100%;
     min-height: 6.18em;
     max-height: 240px;
@@ -78,7 +78,7 @@ nav {
     margin-top: 10px;
     font-family: 'Barlow Condensed', sans-serif;
     font-size: 2em;
-    padding: 0px, 5px, 0px, 5px,;
+    padding: 0px 5px 0px 5px;
 }
     
 .nav-link:hover {
@@ -184,10 +184,9 @@ nav {
     height: 50vh;
     width: auto;
     position:relative;
-    min-zoom: 50%;
     min-block-size: 50%;
     background-color: #e8fcc1;
-    margin: 0px, 0px, 5px, 5px;   
+    margin: 0px 0px 5px 5px;   
 }
 
 .aboutbannertext{
@@ -236,7 +235,6 @@ nav {
     background-repeat: no-repeat;
     background-size: 200vw;
     height: 50vh;
-    min-zoom: 50%;
     display:block;
     min-block-size: 50%;
     background-color: #e8fcc1;
@@ -473,7 +471,7 @@ nav {
 
 .errorcontainer {
     max-width: 70%;
-    margin: 0, 0, 0, 0;
+    margin: 0 0 0 0;
     padding: 20px 10px 20px 10px;
     background-color: #e8fcc1a1;
     position: absolute;
