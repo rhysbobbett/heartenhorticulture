@@ -55,6 +55,8 @@ I have tested the site on various desktop and mobile browsers, results below:
 | --- | --- | --- |
 [Google Chrome](https://www.google.com/chrome) | ![Google Chrome](documentation/googlechrometest.png) | |
 <br>
+
 [Mozilla Firefox (Developer Edition)](https://www.mozilla.org/en-GB/firefox/developer/) | ![Mozilla Firefox Screenshot](documentation/mozillafirefoxdevedition.png) | |
 <br>
+
 [Microsoft Edge ](https://www.microsoft.com/en-gb/edge) | ![Microsoft Edge Screenshot](documentation/microsoftedgescreenshot.png) | |
