@@ -155,7 +155,6 @@ The about us page will act as a key personnel page within the business, alongsid
 - [Gitpod](https://www.gitpod.io) – IDE used to write the site.
 
 
-
 ## Deployment
 I deployed the website to Github pages for testing purposes. The site was deployed by following instructions found in the Github docs page.
 I navigated to my site's repository, selected 'Settings', then 'Code and Automation' section, navigated to 'Pages', then 'Source' to select the main branch of the repository, upon clicking 'Save', the repository was deployed.

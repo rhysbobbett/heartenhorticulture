@@ -2,9 +2,9 @@
 
 I have carried out testing to fix bugs and validated the HTML and CSS of each page, results shown below.
 
-## Bugs
+## Issues during development
 
-Firstly, I will go over basic problems I bugs and issues I encountered when coding the site.
+Firstly, I will go over basic problems and issues I encountered when coding the site.
 
 Issue : Upon deployment to Github pages, my logo image was failing to load.
 Solution : This was fixed by changing the URL to navigate from the parent directory. This was solved by reading through the CSS documentation 
@@ -23,11 +23,6 @@ Solution: I had been using a slightly outdated version of bootstrap, I added the
 
 Issue: Content overlaps with footer on services page.
 Solution: Adjust image size using the CSS vh variable and create a container to act as a heading banner. Change the class to that of bootstrap's 'container-fluid' in the correct divs on the page.
-
-## Accesibility Audit 
-Using Chrome's Lighthouse developer tools, I was able to get a good accesibility score on each of my website's pages.
-I have had to darken some fonts that were originally going to be lighter shades of green, this was to reach a minimum rating of 4 for contrast visibility. The colour scheme I have used is still co-ordinated using my original palette but some colours have been swapped around on certain stand-alone blocks of text and changed slightly from the original specified colours to allow for features such as the active page in the navbar to be seen as active, the active link bootstrap property changes the text to black.
-
 
 ## Code Validation
 
@@ -67,12 +62,18 @@ contactus.html |![contactus.html](documentation/contactusaccessibility.PNG) | No
 response.html |![response.html](documentation/responseaccessibility.PNG) | No errors |
 404.html |![404.html](documentation/404accessibility.PNG) | No errors |
 
-## Perfomance
-Using lighthouse built into Google Chrome's developer tools, I was able to check the site's performance and optimise it for different criteria.
+## Lighthouse testing
+
+### Accesibility Audit 
+Using Chrome's Lighthouse developer tools, I was able to get a good accesibility score on each of my website's pages.
+I have had to darken some fonts that were originally going to be lighter shades of green, this was to reach a minimum rating of 4 for contrast visibility. The colour scheme I have used is still co-ordinated using my original palette but some colours have been swapped around on certain stand-alone blocks of text and changed slightly from the original specified colours to allow for features such as the active page in the navbar to be seen as active, the active link bootstrap property changes the text to black. Results are shown in the tables below.
+
+### Perfomance
+I was able to check the site's performance and optimise it for different criteria.
 The criteria used in Lighthouse are Performance, Best Practices, Accessibility, Search Engine Optimisation and Progressive Web App.
-The category of Progressive Web App is not met by any page as it doesn't meet the criteria.
+The category of Progressive Web App is not met by any page as it doesn't meet the criteria. All results are shown in the tables below.
 <br>
-During testing, I was able to amend my code to maximise the categories, my making sure all links are crawlable on the pages, I was able to achieve maximum rating for SEO.
+During testing, I was able to amend my code to maximise the categories, my making sure all links are crawlable on the pages, I was able to achieve maximum rating for SEO for nearly all pages.
 
 Page | Screenshot | Format | Results / Notes
 | --- | --- | --- | --- |
@@ -95,3 +96,32 @@ response.html |![contactus.html](documentation/lighthouse_response_mobile.PNG) |
 404.html |![404.html](documentation/lighthouse_404_mobile.PNG) | Mobile | Pass, the large background needs the resolution to be changed if the page is to reach maximum performace score, it functions faster than desktop due to the width of the image not loading as intended.  |
 | | | |
 
+## Testing - User Stories
+
+### New User:
+User story | Site functionality | Screenshot
+| --- | --- | --- |
+I want to know what the site is for | The site's about page is one the first items a user would see on the homepage, directing them to a small bio about the company owners. |![Stories - Bio](/documentation/stories_bio.png)   |
+I want to be able to explore everything the site has to offer easily. | The site is only 4 pages, all easily accessible from the top sticky navbar |![Stories - nav](/documentation/stories_nav.png)   |
+I want to see services on offer immediately. | The services page has many services listed as the main content | ![Stories - services](/documentation/stories_services.png)  |
+If I have questions, I should be able to get them answered through a contact system. | The contact page is reachable from both a banner button on the homepage and the top navbar |![Stories - contact](/documentation/stories_contact.png)<br>![Stories - services](/documentation/stories_contact2.png)  |
+
+### Returning User:
+User story | Site functionality | Screenshot
+| --- | --- | --- |
+I want to come back to the site often to see if there are any new articles. | Future developement of the site will have a blog page, this has not been implemented at the moment, the existing gallery is easily updated by an admin providing the user is informed that the site has been updated || 
+I want to return to the site for informative references. | The services page is easily updatable as the owner can decide on any services to add or remove to this page throughout the year as seasons change. | | 
+I want to see social media from the source before anyone else. | The footer contains some up-to-date social media links, and the page features images not shown on social media as a feature of exclusivity | ![Stories - socials](/documentation/stories_socials.png) | 
+
+### Other customer scenarios:
+User story | Site functionality |
+| --- | --- |
+I’m a potential customer who wants some testimony before signing up. | There is currently no mailing list system to sign up to, but this is to be looked at in the future development of the site. | |
+I’m a potential customer who wants to know how much these services are and what is available. | The services page has some examples of services carried out and are clearly shown, the user is suggested to use the contact system to make inquiries. | |
+
+### Site Adminstrator:
+User story | Site functionality | Screenshot
+| --- | --- | --- |
+As a site administrator, the pages should be easily manageable | The html is labelled accordingly, and each gallery item is labelled to easily locate for future updates. | |
+As a site administrator, the contact system should be able to sort general enquiries into categories to ensure that it reaches the correct knowledge base. | In future development of the site, I plan for a dropdown menu with seperate categories to apply a sorting filter to incoming messages. | |
+As a site administrator, the code should be signposted and easy to navigate, it should be consistent and accurate, so I can update it when required. | The code is highly signposted and consistent, easiliy updated and easy to manage. | |
