@@ -53,3 +53,21 @@ I have tested the site on various desktop and mobile browsers, results below:
 [Google Chrome](https://www.google.com/chrome) |![Google Chrome](documentation/googlechrometest.png) | No issues or errors on any page |
 [Mozilla Firefox Developer Edition](https://www.mozilla.org/en-GB/firefox/developer/) |![Mozilla Firefox Screenshot](documentation/mozillafirefoxdevedition.png) | No issues or errors on any page  |
 [Microsoft Edge ](https://www.microsoft.com/en-gb/edge) |![Microsoft Edge Screenshot](documentation/microsoftedgescreenshot.png) | No issues or errors on any page  |
+
+## Accessibility testing
+I tested the accesibility levels of the site using the [WAVE Web Accessibility Evaluation Tool](https://wave.webaim.org/)
+The Alerts in the images are based on the tool deciding if something should be a heading where I didn't require it.
+Here is a table of results for each page:
+| Page | Screenshot | Pass / Notes |
+| --- | --- | --- |
+Index.html |![index.html](documentation/indexaccessibility.PNG) | No errors |
+about.html |![about.html](documentation/aboutaccessibility.PNG) | No errors |
+services.html |![services.html](documentation/servicesaccessibility.PNG) | No errors |
+contactus.html |![contactus.html](documentation/contactusaccessibility.PNG) | No errors |
+response.html |![response.html](documentation/responseaccessibility.PNG) | No errors |
+404.html |![404.html](documentation/404accessibility.PNG) | No errors |
+
+## Perfomance
+Using lighthouse built into Google Chrome's developer tools, I was able to check the site's performance and optimise it for different criteria.
+The criteria used in Lighthouse are Performance, Best Practices, Accessibility, Search Engine Optimisation and Progressive Web App.
+
