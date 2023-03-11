@@ -70,4 +70,28 @@ response.html |![response.html](documentation/responseaccessibility.PNG) | No er
 ## Perfomance
 Using lighthouse built into Google Chrome's developer tools, I was able to check the site's performance and optimise it for different criteria.
 The criteria used in Lighthouse are Performance, Best Practices, Accessibility, Search Engine Optimisation and Progressive Web App.
+The category of Progressive Web App is not met by any page as it doesn't meet the criteria.
+<br>
+During testing, I was able to amend my code to maximise the categories, my making sure all links are crawlable on the pages, I was able to achieve maximum rating for SEO.
+
+Page | Screenshot | Format | Results / Notes
+| --- | --- | --- | --- |
+index.html |![index.html](documentation/lighthouse_index_desktop.PNG) | Desktop | Pass, changing the logo and background image resolution would increase the performance of the page |
+index.html |![index.html](documentation/lighthouse_index_mobile.PNG) | Mobile | Pass, same as previous issue on desktop, the image could be too large to get a perfect score in performance speed. |
+| | | |
+about.html |![about.html](documentation/lighthouse_about_desktop.PNG) | Desktop | Pass, my logo doesn't fit criteria of a standard aspect ratio, so this is marked down for Best Practice |
+about.html |![about.html](documentation/lighthouse_about_mobile.PNG) | Mobile | Pass, scoring slightly higher than desktop in Best Practice I believe is due to the variable ratios of mobile devices, performace slightly lower again due to the vector graphic logo |
+| | | |
+services.html |![services.html](documentation/lighthouse_services_desktop.PNG) | Desktop | Pass, my logo doesn't fit criteria of a standard aspect ratio, so this is marked down on Best Practice |
+services.html |![services.html](documentation/lighthouse_services_mobile.PNG) | Mobile | Pass, the performance could be improved by resizing the image resolution in the portfolio gallery before upload. |
+| | | |
+contactus.html |![contactus.html](documentation/lighthouse_contact_desktop.PNG) | Desktop | Pass, The mark of 92 for Best Practice relates to my logo being a non-standard aspect ratio  |
+contactus.html |![contactus.html](documentation/lighthouse_contact_mobile.PNG) | Mobile | Pass, The low performace score refers to recomended use of render-blocking resources using javascript to defer loading certain parts of the page  |
+| | | |
+response.html |![contactus.html](documentation/lighthouse_response_desktop.PNG) | Desktop | Pass, for all categories but accessibilty, as lighthouse suggests an automatic refresh after 10 seconds is unexpected and may create a confusing experience. I believe this is perfectly acceptable as there is no further functionality required of the user after seeing the submission response, they would instinctively navigate back to the homepage at their own accord if the feature was not implemented. |
+response.html |![contactus.html](documentation/lighthouse_response_mobile.PNG) | Mobile | Pass, the large image brings the score of performace down. The same accessibility score as desktop is due to the automatic refresh.  |
+| | | |
+404.html |![404.html](documentation/lighthouse_404_desktop.PNG) | Desktop | Pass, the large background needs the resolution to be changed if the page is to reach maximum performace score |
+404.html |![404.html](documentation/lighthouse_404_mobile.PNG) | Mobile | Pass, the large background needs the resolution to be changed if the page is to reach maximum performace score, it functions faster than desktop due to the width of the image not loading as intended.  |
+| | | |
 

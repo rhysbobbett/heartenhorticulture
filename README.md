@@ -174,6 +174,7 @@ The gallery is to be based on a bootstrap template gallery found at [mdbootstrap
 * Instructions relating to Github deployment come from Github's docs pages [Github Docs](https://docs.github.com/en)
 * Icons in the footer come from [Font Awesome](https://fontawesome.com/icons)
 * The gallery is based on a gallery from mdbootstrap, and is an open source interface kit. I have begun with a basic gallery but will develop this further.
+* Favicons used are from [favicon.io](https://www.favicon.io) under creative commons licence. 
 
 ### Media
 * The main logo and image links were created in Adobe Illustrator by myself 
