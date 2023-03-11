@@ -35,28 +35,21 @@ I have had to darken some fonts that were originally going to be lighter shades 
 | File | Screenshot | Passed / Notes |
 | --- | --- | --- |
 Homepage - index.html | ![Homepage - index.html](/documentation/htmlvalid_Index.PNG) | Yes - no errors |
-<br>
 About us / bio page - about.html |![About us - about.html](/documentation/htmlvalid_about.PNG) | Yes - no errors|
-<br>
 Services / Portfolio - services.html | ![Services - services.html](/documentation/htmlvalid_services.PNG) | Yes - no errors |
-<br>
 Contact us - contactus.html | ![Contact us - contactus.html](/documentation/htmlvalid_contact.PNG) | Yes - no errors |
-<br>
 
 ### CSS
-| File | Jigsaw Validation | Screenshot | Notes |
-| --- | --- | --- | --- |
-Style.css | Pass: No errors |![Jigsaw.w3.org](/documentation/cssvalid_stylesheet.PNG) | The style.css gave no errors, but when using the direct url to validate, bootstrap and fontawesome will produce errors. |
+
+| Filename | Screenshot | Notes |
+| --- | --- | --- |
+style.css | ![Jigsaw.w3.org](/documentation/cssvalid_stylesheet.PNG) | The style.css gave no errors, but when using the direct url to validate, bootstrap and fontawesome will produce errors. |
 
 ## Browser Compatibility
 
 I have tested the site on various desktop and mobile browsers, results below:
 | Browser | Screenshot | Notes |
 | --- | --- | --- |
-[Google Chrome](https://www.google.com/chrome) | ![Google Chrome](documentation/googlechrometest.png) | |
-<br>
-
-[Mozilla Firefox (Developer Edition)](https://www.mozilla.org/en-GB/firefox/developer/) | ![Mozilla Firefox Screenshot](documentation/mozillafirefoxdevedition.png) | |
-<br>
-
-[Microsoft Edge ](https://www.microsoft.com/en-gb/edge) | ![Microsoft Edge Screenshot](documentation/microsoftedgescreenshot.png) | |
+[Google Chrome](https://www.google.com/chrome) |![Google Chrome](documentation/googlechrometest.png) | No issues or errors on any page |
+[Mozilla Firefox Developer Edition](https://www.mozilla.org/en-GB/firefox/developer/) |![Mozilla Firefox Screenshot](documentation/mozillafirefoxdevedition.png) | No issues or errors on any page  |
+[Microsoft Edge ](https://www.microsoft.com/en-gb/edge) |![Microsoft Edge Screenshot](documentation/microsoftedgescreenshot.png) | No issues or errors on any page  |
