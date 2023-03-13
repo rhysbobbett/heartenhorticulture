@@ -1,34 +1,37 @@
 @import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;500&family=Montserrat:wght@300&display=swap');
 
 * {
-    text-decoration: none !important; 
+    text-decoration: none !important;
 }
 
-html, body {
+html,
+body {
     overflow-x: hidden;
-  }
-  body {
-    position: relative
-  }
-
-html, body {
-  height: 100%;
 }
 
-body > footer{
+body {
+    position: relative
+}
+
+html,
+body {
+    height: 100%;
+}
+
+body>footer {
     position: sticky;
-    top:100vh;
+    top: 100vh;
 }
 
 .bg {
-   background-color: #e8fcc1;
-   overflow-x: hidden;
-   background-size: auto 100%;
+    background-color: #e8fcc1;
+    overflow-x: hidden;
+    background-size: auto 100%;
 }
 
 /* Header/Navbar*/
 nav {
-    background-color:#e8fcc1;
+    background-color: #e8fcc1;
 }
 
 .navbar {
@@ -58,7 +61,7 @@ nav {
 
     animation-name: logo-zoom;
     animation-duration: 5s;
-    animation-fill-mode: forwards;      
+    animation-fill-mode: forwards;
 }
 
 @keyframes logo-zoom {
@@ -70,7 +73,7 @@ nav {
         transform: scale(1.05);
     }
 }
-   
+
 .nav-link {
     color: #21721e;
     text-align: left;
@@ -80,25 +83,26 @@ nav {
     font-size: 2em;
     padding: 0px 5px 0px 5px;
 }
-    
+
 .nav-link:hover {
     animation: colourchange 1s both;
 }
-    
+
 @keyframes colourchange {
     0% {
-    color: #134611;
-    border-radius: 0;
-    background-color:#97e072;
-    opacity: 100%;
+        color: #134611;
+        border-radius: 0;
+        background-color: #97e072;
+        opacity: 100%;
     }
+
     100% {
-    color: #97e072;
-    border-radius: 50%;
-    background-color:#134611;
+        color: #97e072;
+        border-radius: 50%;
+        background-color: #134611;
     }
 }
-    
+
 .nav-item:active {
     color: #3ab636;
 }
@@ -113,8 +117,9 @@ nav {
     top: 0;
     width: 100%;
     transition: top 0.1s;
-    
+
 }
+
 /*index.html*/
 
 .backgroundimage {
@@ -135,7 +140,7 @@ nav {
     height: 25vh;
     width: 100%;
     overflow: hidden;
-    position: relative;   
+    position: relative;
 }
 
 @keyframes hero-zoom {
@@ -155,9 +160,9 @@ nav {
     font-size: 2em;
     padding: 0.5em;
     margin: 0.5em;
-    color:#134611;
+    color: #134611;
     background-size: contain;
-    position: relative;    
+    position: relative;
 }
 
 .aboutus {
@@ -171,9 +176,9 @@ nav {
     top: 110.52px;
 }
 
-.aboutus > a {
-    background-color:#e8fcc1;
-    fill: #e8fcc1;  
+.aboutus>a {
+    background-color: #e8fcc1;
+    fill: #e8fcc1;
 }
 
 .aboutimage {
@@ -183,27 +188,27 @@ nav {
     background-size: 200vw;
     height: 50vh;
     width: auto;
-    position:relative;
+    position: relative;
     min-block-size: 50%;
     background-color: #e8fcc1;
-    margin: 0px 0px 5px 5px;   
+    margin: 0px 0px 5px 5px;
 }
 
-.aboutbannertext{
+.aboutbannertext {
     background-image: url(../images/aboutustext.webp);
     background-position: left;
     background-size: 25%;
     height: 12vh;
     min-block-size: 5%;
     background-color: #e8fcc1;
-    position: relative; 
-    margin:auto;
-    display:block;
+    position: relative;
+    margin: auto;
+    display: block;
     bottom: 300px;
     border-radius: 20px;
     animation-duration: 1s;
     animation-fill-mode: forwards;
-    cursor: help;  
+    cursor: help;
 }
 
 .aboutbannertext:hover {
@@ -218,13 +223,13 @@ nav {
     to {
         transform: scale(1.2);
     }
-    
+
 }
 
-.servicesportfoliobanner > a {
+.servicesportfoliobanner>a {
     position: relative;
     top: 0;
-    bottom: 0;   
+    bottom: 0;
     background-color: #e8fcc1;
     background-size: cover;
 }
@@ -235,30 +240,30 @@ nav {
     background-repeat: no-repeat;
     background-size: 200vw;
     height: 50vh;
-    display:block;
+    display: block;
     min-block-size: 50%;
     background-color: #e8fcc1;
-    position: relative;  
+    position: relative;
 }
 
-.servicesimage img{
+.servicesimage img {
     display: block;
 }
 
-.servicestextbox{
+.servicestextbox {
     background-position: left;
     background-size: 25%;
     height: 15vh;
     min-block-size: 5%;
     background-color: #e8fcc1;
-    position: relative;   
-    margin:auto;
-    display:block;
+    position: relative;
+    margin: auto;
+    display: block;
     bottom: 300px;
     border-radius: 20px;
     animation-duration: 1s;
     animation-fill-mode: forwards;
-    cursor: help;  
+    cursor: help;
 }
 
 .servicestextbox:hover {
@@ -272,7 +277,7 @@ nav {
 
     to {
         transform: scale(1.2);
-    } 
+    }
 }
 
 /*-----about.html-----*/
@@ -291,7 +296,7 @@ nav {
 
 .aboutheading {
     text-align: center;
-    font-family:"Barlow Condensed", sans-serif;
+    font-family: "Barlow Condensed", sans-serif;
     font-size: 3em;
     color: #134611;
     padding: 40px;
@@ -300,60 +305,58 @@ nav {
 .aboutheading:hover {
     animation: colourchange2 1s both;
 }
-    
+
 @keyframes colourchange2 {
     0% {
-    color: #134611;
-    background-color:#97e072;
-    opacity: 100%;
-    font-size: 3em;
+        color: #134611;
+        background-color: #97e072;
+        opacity: 100%;
+        font-size: 3em;
     }
+
     100% {
-    color: #97e072;
-    background-color:#134611;
-    font-size: 6em;
+        color: #97e072;
+        background-color: #134611;
+        font-size: 6em;
     }
 }
 
 .aboutpara {
     text-align: center;
-    font-family:"Barlow Condensed", sans-serif;
+    font-family: "Barlow Condensed", sans-serif;
     font-size: 2em;
     color: #134611;
     padding: 0px;
     margin: 0;
-    display:inline-flex;
+    display: inline-flex;
 }
 
 .contactustext {
     text-align: center;
-    font-family:"Barlow Condensed", sans-serif;
+    font-family: "Barlow Condensed", sans-serif;
     font-size: 1.5em;
     color: #134611;
-    margin:0px;
+    margin: 0px;
     padding: 10px;
-    display:block;
+    display: block;
 
 }
-.cathface {
 
-}
+.cathface {}
 
 .cathabout {
     text-align: left;
-    font-family:"Barlow Condensed", sans-serif;
+    font-family: "Barlow Condensed", sans-serif;
     font-size: 1.5em;
     color: #134611;
     padding: 40px;
 }
 
-.rhysface {
-
-}
+.rhysface {}
 
 .rhysabout {
     text-align: left;
-    font-family:"Barlow Condensed", sans-serif;
+    font-family: "Barlow Condensed", sans-serif;
     font-size: 1.5em;
     color: #134611;
     padding: 40px;
@@ -361,7 +364,7 @@ nav {
 
 /*-----Services-----*/
 
-.servicebanner{
+.servicebanner {
     background: url(../images/service2.png);
     background-position: left;
     background-repeat: no-repeat;
@@ -374,7 +377,7 @@ nav {
 
 .serviceheading {
     text-align: center;
-    font-family:"Barlow Condensed", sans-serif;
+    font-family: "Barlow Condensed", sans-serif;
     font-size: 3em;
     color: #134611;
     padding: 40px;
@@ -382,12 +385,12 @@ nav {
 
 .servicetext {
     text-align: center;
-    font-family:"Barlow Condensed", sans-serif;
+    font-family: "Barlow Condensed", sans-serif;
     font-size: 2em;
     color: #134611;
     padding: 10px;
     display: flex;
-    
+
 }
 
 .listalign {
@@ -453,7 +456,7 @@ nav {
 }
 
 .submit-btn:hover {
-    border-color:#134611;
+    border-color: #134611;
 }
 
 /*-----404 page-----*/
@@ -463,10 +466,10 @@ nav {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    height:100vh;
+    height: 100vh;
     width: 100vw;
     position: relative;
-    background-color:#e8fcc1 ;
+    background-color: #e8fcc1;
 }
 
 .errorcontainer {
@@ -484,7 +487,7 @@ nav {
     width: 100%;
     text-align: center;
     position: absolute;
-    font-family:"Barlow Condensed", sans-serif;
+    font-family: "Barlow Condensed", sans-serif;
     font-weight: 200;
 }
 
@@ -495,7 +498,7 @@ nav {
 /*-----Response page=====*/
 .tymessage {
     text-align: center;
-    font-family:"Barlow Condensed", sans-serif;
+    font-family: "Barlow Condensed", sans-serif;
     font-size: 3em;
     color: #134611;
     padding: 40px;
@@ -521,16 +524,12 @@ footer {
 
 /*----Media Query----*/
 /*--- Small devices ---*/
-@media (min-width: 576px) {   
-}
+@media (min-width: 576px) {}
 
 /*--- Medium devices---*/
-@media (min-width: 768px) { 
-}
+@media (min-width: 768px) {}
 
 /*---Large devices ---*/
-@media (min-width: 992px) {     
-}
+@media (min-width: 992px) {}
 
-@media (min-width: 1200px) {  
-}
+@media (min-width: 1200px) {}
