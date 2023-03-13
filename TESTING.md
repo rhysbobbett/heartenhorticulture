@@ -24,6 +24,9 @@ Solution: I had been using a slightly outdated version of bootstrap, I added the
 Issue: Content overlaps with footer on services page.
 Solution: Adjust image size using the CSS vh variable and create a container to act as a heading banner. Change the class to that of bootstrap's 'container-fluid' in the correct divs on the page.
 
+Issue: The navbar doesn't compress properly when viewing on larger devices such as a tablet.
+Solution : I changed the navbar bootstrap from large to Xl (lg to xl) so when viewed on any device other than a desktop, the navbar would be condensed.
+
 ## Code Validation
 
 ### HTML
@@ -96,10 +99,109 @@ response.html |![contactus.html](documentation/lighthouse_response_mobile.PNG) |
 404.html |![404.html](documentation/lighthouse_404_mobile.PNG) | Mobile | Pass, the large background needs the resolution to be changed if the page is to reach maximum performace score, it functions faster than desktop due to the width of the image not loading as intended.  |
 | | | |
 
+# Testing
+
+## Responsiveness
+
+I tested the site on a variety of devices, I used google chrome's developer tools and a few actual devices to test the layout.
+
+### Device
+<details>
+<summary> iPhone 12 Pro</summary>
+
+| Page | Result
+| --- | --- |
+| Home | :heavy_check_mark: |
+| About | :heavy_check_mark: |
+| Services | :heavy_check_mark: |
+| Contact us | :heavy_check_mark: |
+| Response | :heavy_check_mark: |
+| 404 | :heavy_check_mark: |
+</details>
+
+<details>
+<summary>Samsung Galaxy S20 Ultra</summary>
+
+| Page | Result
+| --- | --- |
+| Home | :heavy_check_mark: |
+| About | :heavy_check_mark: |
+| Services | :heavy_check_mark: |
+| Contact us | :heavy_check_mark: |
+| Response | :heavy_check_mark: |
+| 404 | :heavy_check_mark: |
+</details>
+
+<details>
+<summary>iPad Air</summary>
+
+| Page | Result
+| --- | --- |
+| Home | :heavy_check_mark: |
+| About | :heavy_check_mark: |
+| Services | :heavy_check_mark: |
+| Contact us | :heavy_check_mark: |
+| Response | :heavy_check_mark: |
+| 404 | :heavy_check_mark: |
+</details>
+
+<details>
+<summary>Surface Duo</summary>
+
+| Page | Result
+| --- | --- |
+| Home | :heavy_check_mark: |
+| About | :heavy_check_mark: |
+| Services | :heavy_check_mark: |
+| Contact us | :heavy_check_mark: |
+| Response | :heavy_check_mark: |
+| 404 | :heavy_check_mark: |
+</details>
+
+<details>
+<summary>Nest Hub/Nest Hub Max</summary>
+
+| Page | Result
+| --- | --- |
+| Home | :heavy_check_mark: |
+| About | :heavy_check_mark: |
+| Services | :heavy_check_mark: |
+| Contact us | :heavy_check_mark: |
+| Response | :heavy_check_mark: |
+| 404 | :heavy_check_mark: |
+</details>
+
+<details>
+<summary>Huiwei Y6</summary>
+
+| Page | Result
+| --- | --- |
+| Home | :heavy_check_mark: |
+| About | :heavy_check_mark: |
+| Services | :heavy_check_mark: |
+| Contact us | :heavy_check_mark: |
+| Response | :heavy_check_mark: |
+| 404 | :heavy_check_mark: |
+</details>
+
+<details>
+<summary>Samsung Galaxy Note 10</summary>
+
+| Page | Result
+| --- | --- |
+| Home | :heavy_check_mark: |
+| About | :heavy_check_mark: |
+| Services | :heavy_check_mark: |
+| Contact us | :heavy_check_mark: |
+| Response | :heavy_check_mark: |
+| 404 | :heavy_check_mark: |
+</details>
+
+
 ## Testing - User Stories
 
 ### New User:
-User story | Site functionality | Screenshot
+User story | Site functionality | Screenshot/Notes
 | --- | --- | --- |
 I want to know what the site is for | The site's about page is one the first items a user would see on the homepage, directing them to a small bio about the company owners. |![Stories - Bio](/documentation/stories_bio.png)   |
 I want to be able to explore everything the site has to offer easily. | The site is only 4 pages, all easily accessible from the top sticky navbar |![Stories - nav](/documentation/stories_nav.png)   |
@@ -107,21 +209,26 @@ I want to see services on offer immediately. | The services page has many servic
 If I have questions, I should be able to get them answered through a contact system. | The contact page is reachable from both a banner button on the homepage and the top navbar |![Stories - contact](/documentation/stories_contact.png)<br>![Stories - services](/documentation/stories_contact2.png)  |
 
 ### Returning User:
-User story | Site functionality | Screenshot
+User story | Site functionality | Screenshot/Notes
 | --- | --- | --- |
 I want to come back to the site often to see if there are any new articles. | Future developement of the site will have a blog page, this has not been implemented at the moment, the existing gallery is easily updated by an admin providing the user is informed that the site has been updated || 
 I want to return to the site for informative references. | The services page is easily updatable as the owner can decide on any services to add or remove to this page throughout the year as seasons change. | | 
 I want to see social media from the source before anyone else. | The footer contains some up-to-date social media links, and the page features images not shown on social media as a feature of exclusivity | ![Stories - socials](/documentation/stories_socials.png) | 
 
 ### Other customer scenarios:
-User story | Site functionality |
-| --- | --- |
-I’m a potential customer who wants some testimony before signing up. | There is currently no mailing list system to sign up to, but this is to be looked at in the future development of the site. | |
+User story | Site functionality | Screenshot/Notes
+| --- | --- | --- |
+I’m a potential customer who wants some testimony before signing up. | There is currently no mailing list system to sign up to, but this is to be looked at in the future development of the site. | We are to assume the contact system will build a database of inquiry email address to use as a mailing list, this should be easy to unsubscribe should a user require it |
 I’m a potential customer who wants to know how much these services are and what is available. | The services page has some examples of services carried out and are clearly shown, the user is suggested to use the contact system to make inquiries. | |
 
 ### Site Adminstrator:
-User story | Site functionality | Screenshot
+User story | Site functionality | Screenshot/Notes
 | --- | --- | --- |
-As a site administrator, the pages should be easily manageable | The html is labelled accordingly, and each gallery item is labelled to easily locate for future updates. | |
-As a site administrator, the contact system should be able to sort general enquiries into categories to ensure that it reaches the correct knowledge base. | In future development of the site, I plan for a dropdown menu with seperate categories to apply a sorting filter to incoming messages. | |
+As a site administrator, the pages should be easily manageable | The html is labelled accordingly, and each gallery item is labelled to easily locate for future updates. | ![Stories - Services](/documentation/stories_servicescode.PNG) |
+As a site administrator, the contact system should be able to sort general enquiries into categories to ensure that it reaches the correct knowledge base. | In future development of the site, I plan for a dropdown menu with seperate categories to apply a sorting filter to incoming messages. | This is a feature I will implement in the future to sort which categories of inquiry we receive. |
 As a site administrator, the code should be signposted and easy to navigate, it should be consistent and accurate, so I can update it when required. | The code is highly signposted and consistent, easiliy updated and easy to manage. | |
+As a site administrator, I would expect forms to be filled as required | The contact form must be filled with valid information or errors appear to the user | ![Stories - Email contact](/documentation/stories_contactemail.png) |
+
+All features on the website work as intended, the user stories align with the website's functionality, with some features requiring further development.
+
+As I'm not currently utilising any JS or python scripts on the page, there are no remaining bugs that I am aware of.
