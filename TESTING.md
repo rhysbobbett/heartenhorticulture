@@ -248,9 +248,9 @@ User story | Site functionality | Screenshot/Notes
 | --- | --- | --- |
 As a site administrator, the pages should be easily manageable | The html is labelled accordingly, and each gallery item is labelled to easily locate for future updates. | ![Stories - Services](/documentation/stories_servicescode.PNG) |
 As a site administrator, the contact system should be able to sort general enquiries into categories to ensure that it reaches the correct knowledge base. | In future development of the site, I plan for a dropdown menu with seperate categories to apply a sorting filter to incoming messages. | This is a feature I will implement in the future to sort which categories of inquiry we receive. |
-As a site administrator, the code should be signposted and easy to navigate, it should be consistent and accurate, so I can update it when required. | The code is highly signposted and consistent, easiliy updated and easy to manage. | |
+As a site administrator, the code should be signposted and easy to navigate, it should be consistent and accurate, so I can update it when required. | The code is highly signposted and consistent, easiliy updated and easy to manage. | The code is labelled accordingly and should be simple to update any page in the future |
 As a site administrator, I would expect forms to be filled as required | The contact form must be filled with valid information or errors appear to the user | ![Stories - Email contact](/documentation/stories_contactemail.png) |
 
-All features on the website work as intended, the user stories align with the website's functionality, with some features requiring further development.
+All features on the website work as intended, the user stories align with the website's current functionality, with some features requiring further development.
 
 As I'm not currently utilising any JS or python scripts on the page, there are no remaining bugs that I am aware of.
