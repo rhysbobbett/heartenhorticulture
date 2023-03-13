@@ -107,9 +107,11 @@ I tested the site on a variety of devices, I used google chrome's developer tool
 
 ### Device
 <details>
-<summary> iPhone 12 Pro</summary>
+<summary> iPhone 12 Pro (Dev Tools)</summary>
 
-| Page | Result
+![iPhone 12 Pro](/documentation/device_iphone12pro.PNG)
+
+| Page | Result |
 | --- | --- |
 | Home | :heavy_check_mark: |
 | About | :heavy_check_mark: |
@@ -120,9 +122,11 @@ I tested the site on a variety of devices, I used google chrome's developer tool
 </details>
 
 <details>
-<summary>Samsung Galaxy S20 Ultra</summary>
+<summary>Samsung Galaxy S20 Ultra (Dev Tools)</summary>
 
-| Page | Result
+![Samsung s20](/documentation/device_samsungs20.PNG)
+
+| Page | Result |
 | --- | --- |
 | Home | :heavy_check_mark: |
 | About | :heavy_check_mark: |
@@ -133,9 +137,11 @@ I tested the site on a variety of devices, I used google chrome's developer tool
 </details>
 
 <details>
-<summary>iPad Air</summary>
+<summary>iPad Air (Dev Tools)</summary>
 
-| Page | Result
+![iPad Air](/documentation/device_ipadair.PNG)
+
+| Page | Result |
 | --- | --- |
 | Home | :heavy_check_mark: |
 | About | :heavy_check_mark: |
@@ -146,9 +152,11 @@ I tested the site on a variety of devices, I used google chrome's developer tool
 </details>
 
 <details>
-<summary>Surface Duo</summary>
+<summary>Surface Duo (Dev Tools)</summary>
 
-| Page | Result
+![Surface Duo](/documentation/device_surfaceduo.PNG)
+
+| Page | Result | 
 | --- | --- |
 | Home | :heavy_check_mark: |
 | About | :heavy_check_mark: |
@@ -159,9 +167,9 @@ I tested the site on a variety of devices, I used google chrome's developer tool
 </details>
 
 <details>
-<summary>Nest Hub/Nest Hub Max</summary>
+<summary>Surface Duo (Tested on a friend's device)</summary>
 
-| Page | Result
+| Page | Result |
 | --- | --- |
 | Home | :heavy_check_mark: |
 | About | :heavy_check_mark: |
@@ -172,9 +180,11 @@ I tested the site on a variety of devices, I used google chrome's developer tool
 </details>
 
 <details>
-<summary>Huiwei Y6</summary>
+<summary>Nest Hub Max (Dev Tools)</summary>
 
-| Page | Result
+![Nest Max](/documentation/device_nextmax.PNG)
+
+| Page | Result |
 | --- | --- |
 | Home | :heavy_check_mark: |
 | About | :heavy_check_mark: |
@@ -185,9 +195,9 @@ I tested the site on a variety of devices, I used google chrome's developer tool
 </details>
 
 <details>
-<summary>Samsung Galaxy Note 10</summary>
+<summary>Huiwei Y6 (Tested on a friend's device)</summary>
 
-| Page | Result
+| Page | Result |
 | --- | --- |
 | Home | :heavy_check_mark: |
 | About | :heavy_check_mark: |
@@ -197,6 +207,18 @@ I tested the site on a variety of devices, I used google chrome's developer tool
 | 404 | :heavy_check_mark: |
 </details>
 
+<details>
+<summary>Samsung Galaxy Note 10 (actual device)</summary>
+
+| Page | Result |
+| --- | --- |
+| Home | :heavy_check_mark: |
+| About | :heavy_check_mark: |
+| Services | :heavy_check_mark: |
+| Contact us | :heavy_check_mark: |
+| Response | :heavy_check_mark: |
+| 404 | :heavy_check_mark: |
+</details>
 
 ## Testing - User Stories
 
@@ -211,15 +233,15 @@ If I have questions, I should be able to get them answered through a contact sys
 ### Returning User:
 User story | Site functionality | Screenshot/Notes
 | --- | --- | --- |
-I want to come back to the site often to see if there are any new articles. | Future developement of the site will have a blog page, this has not been implemented at the moment, the existing gallery is easily updated by an admin providing the user is informed that the site has been updated || 
-I want to return to the site for informative references. | The services page is easily updatable as the owner can decide on any services to add or remove to this page throughout the year as seasons change. | | 
+I want to come back to the site often to see if there are any new articles. | Future developement of the site will have a blog page, this has not been implemented at the moment, the existing gallery is easily updated by an admin providing the user is informed that the site has been updated | There will be development of a wiki style plant directory in time to allow frequent visits to the site| 
+I want to return to the site for informative references. | The services page is easily updatable as the owner can decide on any services to add or remove to this page throughout the year as seasons change. | There is a plan for the wiki style plant directory, this may develop into an e-commerce platform. | 
 I want to see social media from the source before anyone else. | The footer contains some up-to-date social media links, and the page features images not shown on social media as a feature of exclusivity | ![Stories - socials](/documentation/stories_socials.png) | 
 
 ### Other customer scenarios:
 User story | Site functionality | Screenshot/Notes
 | --- | --- | --- |
 I’m a potential customer who wants some testimony before signing up. | There is currently no mailing list system to sign up to, but this is to be looked at in the future development of the site. | We are to assume the contact system will build a database of inquiry email address to use as a mailing list, this should be easy to unsubscribe should a user require it |
-I’m a potential customer who wants to know how much these services are and what is available. | The services page has some examples of services carried out and are clearly shown, the user is suggested to use the contact system to make inquiries. | |
+I’m a potential customer who wants to know how much these services are and what is available. | The services page has some examples of services carried out and are clearly shown, the user is suggested to use the contact system to make inquiries. | As actual prices are currently fluctuating so much, it would be unwise to post prices on the site, inquiries are therefore encouraged.|
 
 ### Site Adminstrator:
 User story | Site functionality | Screenshot/Notes
