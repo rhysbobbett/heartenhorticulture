@@ -4,6 +4,7 @@
     text-decoration: none !important;
 }
 
+/*---general site code to hide scroll bar on large images---*/
 html,
 body {
     overflow-x: hidden;
@@ -23,6 +24,7 @@ body>footer {
     top: 100vh;
 }
 
+/*---Background colour---*/
 .bg {
     background-color: #e8fcc1;
     overflow-x: hidden;
@@ -74,6 +76,7 @@ nav {
     }
 }
 
+/*---Navigation link properties---*/
 .nav-link {
     color: #21721e;
     text-align: left;
@@ -84,6 +87,7 @@ nav {
     padding: 0px 5px 0px 5px;
 }
 
+/*---colour/transform properties for nav links---*/
 .nav-link:hover {
     animation: colourchange 1s both;
 }
@@ -112,6 +116,7 @@ nav {
     align-items: center;
 }
 
+/*---Stick navbar---*/
 #sticky {
     position: fixed;
     top: 0;
@@ -120,8 +125,8 @@ nav {
 
 }
 
-/*index.html*/
-
+/*---index.html---*/
+/*---first index.html image zoom out---*/
 .backgroundimage {
     background-image: url(../images/daygarden.webp);
     background-position: center;
@@ -136,6 +141,7 @@ nav {
     background-color: #000;
 }
 
+/*---first index.html image zoom out effect---*/
 .backgroundimageout {
     height: 25vh;
     width: 100%;
@@ -145,7 +151,7 @@ nav {
 
 @keyframes hero-zoom {
     from {
-        transform: scale(1.15);
+        transform: scale(1.2);
         overflow: hidden;
     }
 
@@ -155,6 +161,7 @@ nav {
     }
 }
 
+/*---Introduction text---*/
 .indextext {
     font-family: "Barlow Condensed", sans-serif;
     font-size: 2em;
@@ -176,11 +183,13 @@ nav {
     top: 110.52px;
 }
 
+/*---About us banner div---*/
 .aboutus>a {
     background-color: #e8fcc1;
     fill: #e8fcc1;
 }
 
+/*---About us banner, 2 images make up this area---*/
 .aboutimage {
     background-image: url(../images/aboutbanner.webp);
     background-position: center;
@@ -211,6 +220,7 @@ nav {
     cursor: help;
 }
 
+/*---banner animation---*/
 .aboutbannertext:hover {
     animation-name: zoom;
 }
@@ -226,6 +236,7 @@ nav {
 
 }
 
+/*---service banner div---*/
 .servicesportfoliobanner>a {
     position: relative;
     top: 0;
@@ -234,6 +245,7 @@ nav {
     background-size: cover;
 }
 
+/*---Services banner, 2 images make up this area---*/
 .servicesimage {
     background-image: url(../images/services.webp);
     background-position: left;
@@ -266,6 +278,7 @@ nav {
     cursor: help;
 }
 
+/*---banner animation---*/
 .servicestextbox:hover {
     animation-name: zoom;
 }
@@ -281,6 +294,8 @@ nav {
 }
 
 /*-----about.html-----*/
+
+/*---First image/banner---*/
 
 .aboutusbanner {
     background-image: url(../images/aboutuspagebanner.webp);
@@ -302,6 +317,7 @@ nav {
     padding: 40px;
 }
 
+/*---First image/banner animation---*/
 .aboutheading:hover {
     animation: colourchange2 1s both;
 }
@@ -321,6 +337,7 @@ nav {
     }
 }
 
+/*---First paragraph---*/
 .aboutpara {
     text-align: center;
     font-family: "Barlow Condensed", sans-serif;
@@ -331,6 +348,7 @@ nav {
     display: inline-flex;
 }
 
+/*---brief call-to-action---*/
 .contactustext {
     text-align: center;
     font-family: "Barlow Condensed", sans-serif;
@@ -342,17 +360,36 @@ nav {
 
 }
 
-.cathface {}
+.cathface {
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    background: url(../images/catherine_headshot.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0 auto;
+    margin-top: 15px;
+}
 
 .cathabout {
-    text-align: left;
     font-family: "Barlow Condensed", sans-serif;
     font-size: 1.5em;
     color: #134611;
     padding: 40px;
 }
 
-.rhysface {}
+.rhysface {
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    background: url();
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0 auto;
+    margin-top: 15px;
+}
 
 .rhysabout {
     text-align: left;
