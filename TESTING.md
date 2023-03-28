@@ -32,16 +32,16 @@ Solution : I changed the navbar bootstrap from large to Xl (lg to xl) so when vi
 ### HTML
 | File | Screenshot | Passed / Notes |
 | --- | --- | --- |
-Homepage - index.html | ![Homepage - index.html](/documentation/htmlvalid_Index.PNG) | Yes - no errors |
-About us / bio page - about.html |![About us - about.html](/documentation/htmlvalid_about.PNG) | Yes - no errors|
-Services / Portfolio - services.html | ![Services - services.html](/documentation/htmlvalid_services.PNG) | Yes - no errors |
-Contact us - contactus.html | ![Contact us - contactus.html](/documentation/htmlvalid_contact.PNG) | Yes - no errors |
+Homepage - index.html | ![Homepage - index.html](/documentation/htmlvalid_Index.png) | Yes - no errors |
+About us / bio page - about.html |![About us - about.html](/documentation/htmlvalid_about.png) | Yes - no errors|
+Services / Portfolio - services.html | ![Services - services.html](/documentation/htmlvalid_services.png) | Yes - no errors |
+Contact us - contactus.html | ![Contact us - contactus.html](/documentation/htmlvalid_contact.png) | Yes - no errors |
 
 ### CSS
 
 | Filename | Screenshot | Notes |
 | --- | --- | --- |
-style.css | ![Jigsaw.w3.org](/documentation/cssvalid_stylesheet.PNG) | The style.css gave no errors, but when using the direct url to validate, bootstrap and fontawesome will produce errors. |
+style.css | ![Jigsaw.w3.org](/documentation/cssvalid_stylesheet.png) | The style.css gave no errors, but when using the direct url to validate, bootstrap and fontawesome will produce errors. |
 
 ## Browser Compatibility
 
@@ -58,12 +58,12 @@ The Alerts in the images are based on the tool deciding if something should be a
 Here is a table of results for each page:
 | Page | Screenshot | Pass / Notes |
 | --- | --- | --- |
-Index.html |![index.html](documentation/indexaccessibility.PNG) | No errors |
-about.html |![about.html](documentation/aboutaccessibility.PNG) | No errors |
-services.html |![services.html](documentation/servicesaccessibility.PNG) | No errors |
-contactus.html |![contactus.html](documentation/contactusaccessibility.PNG) | No errors |
-response.html |![response.html](documentation/responseaccessibility.PNG) | No errors |
-404.html |![404.html](documentation/404accessibility.PNG) | No errors |
+Index.html |![index.html](documentation/indexaccessibility.png) | No errors |
+about.html |![about.html](documentation/aboutaccessibility.png) | No errors |
+services.html |![services.html](documentation/servicesaccessibility.png) | No errors |
+contactus.html |![contactus.html](documentation/contactusaccessibility.png) | No errors |
+response.html |![response.html](documentation/responseaccessibility.png) | No errors |
+404.html |![404.html](documentation/404accessibility.png) | No errors |
 
 ## Lighthouse testing
 
@@ -80,23 +80,23 @@ During testing, I was able to amend my code to maximise the categories, my makin
 
 Page | Screenshot | Format | Results / Notes
 | --- | --- | --- | --- |
-index.html |![index.html](documentation/lighthouse_index_desktop.PNG) | Desktop | Pass, changing the logo and background image resolution would increase the performance of the page |
-index.html |![index.html](documentation/lighthouse_index_mobile.PNG) | Mobile | Pass, same as previous issue on desktop, the image could be too large to get a perfect score in performance speed. |
+index.html |![index.html](documentation/lighthouse_index_desktop.png) | Desktop | Pass, changing the logo and background image resolution would increase the performance of the page |
+index.html |![index.html](documentation/lighthouse_index_mobile.png) | Mobile | Pass, same as previous issue on desktop, the image could be too large to get a perfect score in performance speed. |
 | | | |
-about.html |![about.html](documentation/lighthouse_about_desktop.PNG) | Desktop | Pass, my logo doesn't fit criteria of a standard aspect ratio, so this is marked down for Best Practice |
-about.html |![about.html](documentation/lighthouse_about_mobile.PNG) | Mobile | Pass, scoring slightly higher than desktop in Best Practice I believe is due to the variable ratios of mobile devices, performace slightly lower again due to the vector graphic logo |
+about.html |![about.html](documentation/lighthouse_about_desktop.png) | Desktop | Pass, my logo doesn't fit criteria of a standard aspect ratio, so this is marked down for Best Practice |
+about.html |![about.html](documentation/lighthouse_about_mobile.png) | Mobile | Pass, scoring slightly higher than desktop in Best Practice I believe is due to the variable ratios of mobile devices, performace slightly lower again due to the vector graphic logo |
 | | | |
-services.html |![services.html](documentation/lighthouse_services_desktop.PNG) | Desktop | Pass, my logo doesn't fit criteria of a standard aspect ratio, so this is marked down on Best Practice |
-services.html |![services.html](documentation/lighthouse_services_mobile.PNG) | Mobile | Pass, the performance could be improved by resizing the image resolution in the portfolio gallery before upload. |
+services.html |![services.html](documentation/lighthouse_services_desktop.png) | Desktop | Pass, my logo doesn't fit criteria of a standard aspect ratio, so this is marked down on Best Practice |
+services.html |![services.html](documentation/lighthouse_services_mobile.png) | Mobile | Pass, the performance could be improved by resizing the image resolution in the portfolio gallery before upload. |
 | | | |
-contactus.html |![contactus.html](documentation/lighthouse_contact_desktop.PNG) | Desktop | Pass, The mark of 92 for Best Practice relates to my logo being a non-standard aspect ratio  |
-contactus.html |![contactus.html](documentation/lighthouse_contact_mobile.PNG) | Mobile | Pass, The low performace score refers to recomended use of render-blocking resources using javascript to defer loading certain parts of the page  |
+contactus.html |![contactus.html](documentation/lighthouse_contact_desktop.png) | Desktop | Pass, The mark of 92 for Best Practice relates to my logo being a non-standard aspect ratio  |
+contactus.html |![contactus.html](documentation/lighthouse_contact_mobile.png) | Mobile | Pass, The low performace score refers to recomended use of render-blocking resources using javascript to defer loading certain parts of the page  |
 | | | |
-response.html |![contactus.html](documentation/lighthouse_response_desktop.PNG) | Desktop | Pass, for all categories but accessibilty, as lighthouse suggests an automatic refresh after 10 seconds is unexpected and may create a confusing experience. I believe this is perfectly acceptable as there is no further functionality required of the user after seeing the submission response, they would instinctively navigate back to the homepage at their own accord if the feature was not implemented. |
-response.html |![contactus.html](documentation/lighthouse_response_mobile.PNG) | Mobile | Pass, the large image brings the score of performace down. The same accessibility score as desktop is due to the automatic refresh.  |
+response.html |![contactus.html](documentation/lighthouse_response_desktop.png) | Desktop | Pass, for all categories but accessibilty, as lighthouse suggests an automatic refresh after 10 seconds is unexpected and may create a confusing experience. I believe this is perfectly acceptable as there is no further functionality required of the user after seeing the submission response, they would instinctively navigate back to the homepage at their own accord if the feature was not implemented. |
+response.html |![contactus.html](documentation/lighthouse_response_mobile.png) | Mobile | Pass, the large image brings the score of performace down. The same accessibility score as desktop is due to the automatic refresh.  |
 | | | |
-404.html |![404.html](documentation/lighthouse_404_desktop.PNG) | Desktop | Pass, the large background needs the resolution to be changed if the page is to reach maximum performace score |
-404.html |![404.html](documentation/lighthouse_404_mobile.PNG) | Mobile | Pass, the large background needs the resolution to be changed if the page is to reach maximum performace score, it functions faster than desktop due to the width of the image not loading as intended.  |
+404.html |![404.html](documentation/lighthouse_404_desktop.png) | Desktop | Pass, the large background needs the resolution to be changed if the page is to reach maximum performace score |
+404.html |![404.html](documentation/lighthouse_404_mobile.png) | Mobile | Pass, the large background needs the resolution to be changed if the page is to reach maximum performace score, it functions faster than desktop due to the width of the image not loading as intended.  |
 | | | |
 
 # Testing
@@ -109,7 +109,7 @@ I tested the site on a variety of devices, I used google chrome's developer tool
 <details>
 <summary> iPhone 12 Pro (Dev Tools)</summary>
 
-![iPhone 12 Pro](/documentation/device_iphone12pro.PNG)
+![iPhone 12 Pro](/documentation/device_iphone12pro.png)
 
 | Page | Result |
 | --- | --- |
@@ -124,7 +124,7 @@ I tested the site on a variety of devices, I used google chrome's developer tool
 <details>
 <summary>Samsung Galaxy S20 Ultra (Dev Tools)</summary>
 
-![Samsung s20](/documentation/device_samsungs20.PNG)
+![Samsung s20](/documentation/device_samsungs20.png)
 
 | Page | Result |
 | --- | --- |
@@ -139,7 +139,7 @@ I tested the site on a variety of devices, I used google chrome's developer tool
 <details>
 <summary>iPad Air (Dev Tools)</summary>
 
-![iPad Air](/documentation/device_ipadair.PNG)
+![iPad Air](/documentation/device_ipadair.png)
 
 | Page | Result |
 | --- | --- |
@@ -154,7 +154,7 @@ I tested the site on a variety of devices, I used google chrome's developer tool
 <details>
 <summary>Surface Duo (Dev Tools)</summary>
 
-![Surface Duo](/documentation/device_surfaceduo.PNG)
+![Surface Duo](/documentation/device_surfaceduo.png)
 
 | Page | Result | 
 | --- | --- |
@@ -182,7 +182,7 @@ I tested the site on a variety of devices, I used google chrome's developer tool
 <details>
 <summary>Nest Hub Max (Dev Tools)</summary>
 
-![Nest Max](/documentation/device_nextmax.PNG)
+![Nest Max](/documentation/device_nextmax.png)
 
 | Page | Result |
 | --- | --- |
@@ -246,7 +246,7 @@ I’m a potential customer who wants to know how much these services are and wha
 ### Site Adminstrator:
 User story | Site functionality | Screenshot/Notes
 | --- | --- | --- |
-As a site administrator, the pages should be easily manageable | The html is labelled accordingly, and each gallery item is labelled to easily locate for future updates. | ![Stories - Services](/documentation/stories_servicescode.PNG) |
+As a site administrator, the pages should be easily manageable | The html is labelled accordingly, and each gallery item is labelled to easily locate for future updates. | ![Stories - Services](/documentation/stories_servicescode.png) |
 As a site administrator, the contact system should be able to sort general enquiries into categories to ensure that it reaches the correct knowledge base. | In future development of the site, I plan for a dropdown menu with seperate categories to apply a sorting filter to incoming messages. | This is a feature I will implement in the future to sort which categories of inquiry we receive. |
 As a site administrator, the code should be signposted and easy to navigate, it should be consistent and accurate, so I can update it when required. | The code is highly signposted and consistent, easiliy updated and easy to manage. | The code is labelled accordingly and should be simple to update any page in the future |
 As a site administrator, I would expect forms to be filled as required | The contact form must be filled with valid information or errors appear to the user | ![Stories - Email contact](/documentation/stories_contactemail.png) |
