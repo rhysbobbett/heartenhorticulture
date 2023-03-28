@@ -4,6 +4,8 @@
 ![GitHub language count](https://img.shields.io/github/languages/count/rhysbobbett/heartenhorticulture?color=yellow)
 ![GitHub top language](https://img.shields.io/github/languages/top/rhysbobbett/heartenhorticulture?color=orange)
 
+
+![Am I responsive image](/documentation/amiresponsive.png)
 This responsive site is designed for people to learn more about Hearten Horticulture Ltd and can be viewed on various devices.
 
 [View Hearten Horticulture on Github Pages](https://rhysbobbett.github.io/heartenhorticulture/)
@@ -127,19 +129,31 @@ The page will also feature a 'Contact us' button below this information to quick
 ![Homepage](/documentation/features_frontsplash.png)
 
 ### About Us
-
 This page will feature text explaining the business ethos, alongside images of personnel with brief description of their related experiences. 
 ![About us](/documentation/features_bio.png)
-### Services and Portfolio
 
+
+### Services and Portfolio
 This page will feature a table of services offered that will scroll to a media gallery of images showing previous works carried out.
 ![Services table](/documentation/features_servicetable.png)
 ![Portfolio Gallery](/documentation/features_gallery.png)
 
-### Contact us page
 
+### Contact us page
 This page will have a form for contacting us. The form will require a valid name and email address.
-![Contact us form](/documentation/features_contactbox.png)
+![contact us page](/documentation/features_contactbox.png)
+
+
+### Response Page
+The page automatically refreshes back to homepage after 10 seconds. 
+The page simply shows text upon submission of the contact form.
+![Contact form Submit](/documentation/features_submit.png)
+
+
+### 404 Page
+The page was added as when I manually entered a url incorrected, I realised I didn't have a 404 page to redirect users back to the homepage.
+The page features 1 button to redirect back to the homepage and no other clickable links for simplicity.
+![404 page](/documentation/features_404.png)
 
 
 ### Future Features
