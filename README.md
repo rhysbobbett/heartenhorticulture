@@ -5,7 +5,7 @@
 ![GitHub top language](https://img.shields.io/github/languages/top/rhysbobbett/heartenhorticulture?color=orange)
 
 
-![Am I responsive image](/documentation/amiresponsive.png)
+![Am I responsive image](documentation/amiresponsive.png)
 This responsive site is designed for people to learn more about Hearten Horticulture Ltd and can be viewed on various devices.
 
 [View Hearten Horticulture on Github Pages](https://rhysbobbett.github.io/heartenhorticulture/)
