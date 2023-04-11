@@ -247,7 +247,7 @@ nav {
     background-repeat: no-repeat;
     background-size: cover;
     height: 50vh;
-    width: 150%;
+    width: 100%;
     display: block;
     min-block-size: 100%;
     background-color: var(--light-green);
