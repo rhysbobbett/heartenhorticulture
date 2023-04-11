@@ -22,10 +22,10 @@ body>footer {
 
 /*Background colour*/
 .bg {
-    
-    overflow-x: hidden;
     background-size: auto 100%;
+    background-color: var(--light-green);
 }
+
 
 /* Header/Navbar*/
 nav {
@@ -173,7 +173,7 @@ nav {
     background-color: var(--light-green);
     height: 50%;
     width: 50%;
-    fill: #var(--light-green);
+    fill: var(--light-green);
     top: 110.52px;
 }
 
@@ -194,7 +194,7 @@ nav {
     position: relative;
     min-block-size: 50%;
     background-color: var(--light-green);
-    margin: 0px 0px 5px 5px;
+    
 }
 
 .aboutbannertext {
@@ -237,6 +237,7 @@ nav {
     bottom: 0;
     background-color: var(--light-green);
     background-size: cover;
+    
 }
 
 /*Services banner, 2 images make up this area*/
@@ -244,12 +245,14 @@ nav {
     background-image: url(../images/services.webp);
     background-position: left;
     background-repeat: no-repeat;
-    background-size: 200vw;
+    background-size: cover;
     height: 50vh;
+    width: 150%;
     display: block;
-    min-block-size: 50%;
+    min-block-size: 100%;
     background-color: var(--light-green);
     position: relative;
+    
 }
 
 .servicesimage img {
@@ -293,12 +296,12 @@ nav {
 
 .aboutusbanner {
     background-image: url(../images/aboutuspagebanner.webp);
-    background-position: left;
+    background-position: center;
     background-repeat: no-repeat;
     background-size: 200vw;
     display: block;
     min-block-size: 50%;
-    background-color: #var(var(--dark-green));
+    background-color: var(var(--dark-green));
     position: relative;
     text-align: center;
 }
@@ -397,7 +400,7 @@ nav {
 
 .servicebanner {
     background: url(../images/service2.png);
-    background-position: left;
+    background-position: center;
     background-repeat: no-repeat;
     background-size: 200vw;
     display: block;
@@ -430,7 +433,7 @@ nav {
 
 /*Gallery*/
 .gallery {
-    background-color: #var(--light-green);
+    background-color: var(--light-green);
     text-align: center;
     font-family: "Barlow Condensed";
     font-size: 3vh;
@@ -500,14 +503,14 @@ nav {
     height: 100vh;
     width: 100vw;
     position: relative;
-    background-color: #var(--light-green);
+    background-color: var(--light-green);
 }
 
 .errorcontainer {
     max-width: 70%;
     margin: 0 0 0 0;
     padding: 20px 10px 20px 10px;
-    background-color: #var(--light-green)a1;
+    background-color: var(--light-green)a1;
     position: absolute;
     top: 80px;
     left: 15%;
@@ -538,7 +541,7 @@ nav {
 /*Footer*/
 
 footer {
-    background-color: #var(--light-green);
+    background-color: var(--light-green);
 }
 
 .footnotes {
