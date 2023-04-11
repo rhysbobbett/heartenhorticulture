@@ -36,6 +36,8 @@ Homepage - index.html | ![Homepage - index.html](/documentation/htmlvalid_Index.
 About us / bio page - about.html |![About us - about.html](/documentation/htmlvalid_about.png) | Yes - no errors|
 Services / Portfolio - services.html | ![Services - services.html](/documentation/htmlvalid_services.png) | Yes - no errors |
 Contact us - contactus.html | ![Contact us - contactus.html](/documentation/htmlvalid_contact.png) | Yes - no errors |
+Response page - response.html | ![Response - response.html](/documentation/htmlvalid_response.png) | Yes - no errors |
+404 page - 404.html | ![404 - 404.html](/documentation/htmlvalid_404.png) | Yes - no errors |
 
 ### CSS
 
