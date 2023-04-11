@@ -6,25 +6,25 @@ I have carried out testing to fix bugs and validated the HTML and CSS of each pa
 
 Firstly, I will go over basic problems and issues I encountered when coding the site.
 
-Issue : Upon deployment to Github pages, my logo image was failing to load.
+- Issue : Upon deployment to Github pages, my logo image was failing to load.
 Solution : This was fixed by changing the URL to navigate from the parent directory. This was solved by reading through the CSS documentation 
 
-Issue : When deploying to Github using the animated image png files in the CSS, the URL again failed to load correctly.
-Solution : formatting the folder as '../assets/images/filename.jpeg' allows github to correctly find the parent folder allowing images to load correctly.
+- Issue : When deploying to Github using the animated image png files in the CSS, the URL again failed to load correctly.
+Solution : formatting the folder as `../assets/images/filename.jpeg` allows github to correctly find the parent folder allowing images to load correctly.
 
-Issue : The 'Contact us!' button upon the homepage would not be visible when the background was moving.
+- Issue : The 'Contact us!' button upon the homepage would not be visible when the background was moving.
 Solution : Using Z-index in the CSS, the layers can be sorted by their visibility order, and numbered accordingly, the order was corrected to suit the page requirements. This method was applied to allow images to be placed on top of other images on the index.html page.
 
-Issue: This was an aesthetic issue, but having the links in the top right corner didn't provide the accessibility of placing them adjacent to the logo in a user's line of sight when looking at a desktop screen.
+- Issue: This was an aesthetic issue, but having the links in the top right corner didn't provide the accessibility of placing them adjacent to the logo in a user's line of sight when looking at a desktop screen.
 Solution: Adjust design to accomodate centering the link navigation bar onscreen.
 
-Issue: Toggle of my burger button was not initiating the dropdown menu.
+- Issue: Toggle of my burger button was not initiating the dropdown menu.
 Solution: I had been using a slightly outdated version of bootstrap, I added the updated CDN links to the head of my pages and it now works.
 
-Issue: Content overlaps with footer on services page.
+- Issue: Content overlaps with footer on services page.
 Solution: Adjust image size using the CSS vh variable and create a container to act as a heading banner. Change the class to that of bootstrap's 'container-fluid' in the correct divs on the page.
 
-Issue: The navbar doesn't compress properly when viewing on larger devices such as a tablet.
+- Issue: The navbar doesn't compress properly when viewing on larger devices such as a tablet.
 Solution : I changed the navbar bootstrap from large to Xl (lg to xl) so when viewed on any device other than a desktop, the navbar would be condensed.
 
 ## Code Validation
@@ -250,6 +250,9 @@ As a site administrator, the pages should be easily manageable | The html is lab
 As a site administrator, the contact system should be able to sort general enquiries into categories to ensure that it reaches the correct knowledge base. | In future development of the site, I plan for a dropdown menu with seperate categories to apply a sorting filter to incoming messages. | This is a feature I will implement in the future to sort which categories of inquiry we receive. |
 As a site administrator, the code should be signposted and easy to navigate, it should be consistent and accurate, so I can update it when required. | The code is highly signposted and consistent, easiliy updated and easy to manage. | The code is labelled accordingly and should be simple to update any page in the future |
 As a site administrator, I would expect forms to be filled as required | The contact form must be filled with valid information or errors appear to the user | ![Stories - Email contact](/documentation/stories_contactemail.png) |
+
+
+## Remaining bugs
 
 All features on the website work as intended, the user stories align with the website's current functionality, with some features requiring further development.
 

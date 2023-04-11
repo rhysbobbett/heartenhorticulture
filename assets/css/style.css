@@ -1,22 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;500&family=Montserrat:wght@300&display=swap');
 
+:root {
+    --green: #21721e;
+    --light-green: #e8fcc1;
+    --dark-green: #134611;
+}
+
 * {
     text-decoration: none !important;
 }
 
 /*general site code to hide scroll bar on large images*/
-html,
-body {
-    overflow-x: hidden;
-}
-
 body {
     position: relative
-}
-
-html,
-body {
-    height: 100%;
 }
 
 body>footer {
@@ -26,14 +22,14 @@ body>footer {
 
 /*Background colour*/
 .bg {
-    background-color: #e8fcc1;
+    
     overflow-x: hidden;
     background-size: auto 100%;
 }
 
 /* Header/Navbar*/
 nav {
-    background-color: #e8fcc1;
+    background-color: var(--light-green);
 }
 
 .navbar {
@@ -51,8 +47,6 @@ nav {
 }
 
 #myLogo {
-    margin-left: 0;
-    margin-right: 100%;
     min-width: 100%;
     min-height: 6.18em;
     max-height: 240px;
@@ -78,7 +72,7 @@ nav {
 
 /*Navigation link properties*/
 .nav-link {
-    color: #21721e;
+    color: var(--green);
     text-align: left;
     margin-left: 15px;
     margin-top: 10px;
@@ -94,7 +88,7 @@ nav {
 
 @keyframes colourchange {
     0% {
-        color: #134611;
+        color: var(--dark-green);
         border-radius: 0;
         background-color: #97e072;
         opacity: 100%;
@@ -103,7 +97,7 @@ nav {
     100% {
         color: #97e072;
         border-radius: 50%;
-        background-color: #134611;
+        background-color: var(--dark-green);
     }
 }
 
@@ -167,7 +161,7 @@ nav {
     font-size: 2em;
     padding: 0.5em;
     margin: 0.5em;
-    color: #134611;
+    color: var(--dark-green);
     background-size: contain;
     position: relative;
 }
@@ -176,17 +170,17 @@ nav {
     position: relative;
     top: 0;
     bottom: 0;
-    background-color: #e8fcc1;
+    background-color: var(--light-green);
     height: 50%;
     width: 50%;
-    fill: #e8fcc1;
+    fill: #var(--light-green);
     top: 110.52px;
 }
 
 /*About us banner div*/
 .aboutus>a {
-    background-color: #e8fcc1;
-    fill: #e8fcc1;
+    background-color: var(--light-green);
+    fill: var(--light-green);
 }
 
 /*About us banner, 2 images make up this area*/
@@ -199,7 +193,7 @@ nav {
     width: auto;
     position: relative;
     min-block-size: 50%;
-    background-color: #e8fcc1;
+    background-color: var(--light-green);
     margin: 0px 0px 5px 5px;
 }
 
@@ -209,7 +203,7 @@ nav {
     background-size: 25%;
     height: 12vh;
     min-block-size: 5%;
-    background-color: #e8fcc1;
+    background-color: var(--light-green);
     position: relative;
     margin: auto;
     display: block;
@@ -241,7 +235,7 @@ nav {
     position: relative;
     top: 0;
     bottom: 0;
-    background-color: #e8fcc1;
+    background-color: var(--light-green);
     background-size: cover;
 }
 
@@ -254,7 +248,7 @@ nav {
     height: 50vh;
     display: block;
     min-block-size: 50%;
-    background-color: #e8fcc1;
+    background-color: var(--light-green);
     position: relative;
 }
 
@@ -267,7 +261,7 @@ nav {
     background-size: 25%;
     height: 15vh;
     min-block-size: 5%;
-    background-color: #e8fcc1;
+    background-color: var(--light-green);
     position: relative;
     margin: auto;
     display: block;
@@ -304,7 +298,7 @@ nav {
     background-size: 200vw;
     display: block;
     min-block-size: 50%;
-    background-color: #e8fcc1;
+    background-color: #var(var(--dark-green));
     position: relative;
     text-align: center;
 }
@@ -313,7 +307,7 @@ nav {
     text-align: center;
     font-family: "Barlow Condensed", sans-serif;
     font-size: 3em;
-    color: #134611;
+    color: var(--dark-green);
     padding: 40px;
 }
 
@@ -324,7 +318,7 @@ nav {
 
 @keyframes colourchange2 {
     0% {
-        color: #134611;
+        color: var(--dark-green);
         background-color: #97e072;
         opacity: 100%;
         font-size: 3em;
@@ -332,7 +326,7 @@ nav {
 
     100% {
         color: #97e072;
-        background-color: #134611;
+        background-color: var(--dark-green);
         font-size: 6em;
     }
 }
@@ -342,7 +336,7 @@ nav {
     text-align: center;
     font-family: "Barlow Condensed", sans-serif;
     font-size: 2em;
-    color: #134611;
+    color: var(--dark-green);
     padding: 0px;
     margin: 0;
     display: inline-flex;
@@ -353,7 +347,7 @@ nav {
     text-align: center;
     font-family: "Barlow Condensed", sans-serif;
     font-size: 1.5em;
-    color: #134611;
+    color: var(--dark-green);
     margin: 0px;
     padding: 10px;
     display: block;
@@ -375,7 +369,7 @@ nav {
 .cathabout {
     font-family: "Barlow Condensed", sans-serif;
     font-size: 1.5em;
-    color: #134611;
+    color: var(--dark-green);
     padding: 40px;
 }
 
@@ -395,7 +389,7 @@ nav {
     text-align: left;
     font-family: "Barlow Condensed", sans-serif;
     font-size: 1.5em;
-    color: #134611;
+    color: var(--dark-green);
     padding: 40px;
 }
 
@@ -416,7 +410,7 @@ nav {
     text-align: center;
     font-family: "Barlow Condensed", sans-serif;
     font-size: 3em;
-    color: #134611;
+    color: var(--dark-green);
     padding: 40px;
 }
 
@@ -424,7 +418,7 @@ nav {
     text-align: center;
     font-family: "Barlow Condensed", sans-serif;
     font-size: 2em;
-    color: #134611;
+    color: var(--dark-green);
     padding: 10px;
     display: flex;
 
@@ -436,7 +430,7 @@ nav {
 
 /*Gallery*/
 .gallery {
-    background-color: #e8fcc1;
+    background-color: #var(--light-green);
     text-align: center;
     font-family: "Barlow Condensed";
     font-size: 3vh;
@@ -489,11 +483,11 @@ nav {
 }
 
 .form-input:hover {
-    border-color: #134611;
+    border-color: var(--dark-green);
 }
 
 .submit-btn:hover {
-    border-color: #134611;
+    border-color: var(--dark-green);
 }
 
 /*404 page*/
@@ -506,14 +500,14 @@ nav {
     height: 100vh;
     width: 100vw;
     position: relative;
-    background-color: #e8fcc1;
+    background-color: #var(--light-green);
 }
 
 .errorcontainer {
     max-width: 70%;
     margin: 0 0 0 0;
     padding: 20px 10px 20px 10px;
-    background-color: #e8fcc1a1;
+    background-color: #var(--light-green)a1;
     position: absolute;
     top: 80px;
     left: 15%;
@@ -537,18 +531,18 @@ nav {
     text-align: center;
     font-family: "Barlow Condensed", sans-serif;
     font-size: 3em;
-    color: #134611;
+    color: var(--dark-green);
     padding: 40px;
 }
 
 /*Footer*/
 
 footer {
-    background-color: #e8fcc1;
+    background-color: #var(--light-green);
 }
 
 .footnotes {
-    color: #134611;
+    color: var(--dark-green);
 }
 
 .smicon {
@@ -556,5 +550,5 @@ footer {
 }
 
 .smicon:hover {
-    color: #134611;
+    color: var(--dark-green);
 }
