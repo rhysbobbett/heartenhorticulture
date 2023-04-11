@@ -138,20 +138,18 @@ nav {
 /*first index.html image zoom out effect*/
 .backgroundimageout {
     height: 25vh;
-    width: 100%;
     overflow: hidden;
+    width: 100%;
     position: relative;
 }
 
 @keyframes hero-zoom {
     from {
         transform: scale(1.2);
-        overflow: hidden;
     }
 
     to {
         transform: scale(1.1);
-        overflow: hidden;
     }
 }
 
