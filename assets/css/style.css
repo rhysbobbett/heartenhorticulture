@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;500&family=Montserrat:wght@300&display=swap');
 
+/*Selects the root element of the site*/
 :root {
     --green: #21721e;
     --light-green: #e8fcc1;
@@ -10,7 +11,7 @@
     text-decoration: none !important;
 }
 
-/*general site code to hide scroll bar on large images*/
+/*code for sticky footer*/ 
 body {
     position: relative
 }
@@ -46,6 +47,7 @@ nav {
     box-shadow: none;
 }
 
+/*Hearten Horticulture logo*/
 #myLogo {
     min-width: 100%;
     min-height: 6.18em;
@@ -110,7 +112,7 @@ nav {
     align-items: center;
 }
 
-/*Stick navbar*/
+/*Sticky navbar*/
 #sticky {
     position: fixed;
     top: 0;
@@ -355,6 +357,7 @@ nav {
 
 }
 
+/* About 1 */
 .cathface {
     height: 300px;
     width: 300px;
@@ -374,6 +377,7 @@ nav {
     padding: 40px;
 }
 
+/* About 2 */
 .rhysface {
     height: 300px;
     width: 300px;
@@ -395,7 +399,6 @@ nav {
 }
 
 /*Services*/
-
 .servicebanner {
     background: url(../images/service2.png);
     background-position: center;
